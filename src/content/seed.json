@@ -1,0 +1,296 @@
+{
+  "company": {
+    "name": "Luna Industrial Solutions",
+    "tagline": "Innovating an Extraordinary Future",
+    "description": "Leading provider of industrial automation solutions, precision bearings, and cutting-edge mechatronics systems for modern manufacturing.",
+    "established": 1994,
+    "headquarters": "Mumbai, India",
+    "contact": {
+      "phone": "+91 123 456 7890",
+      "email": "info@lunatech.com",
+      "address": "123 Industrial Street, Tech Park, Mumbai 400001, Maharashtra, India"
+    }
+  },
+  "verticals": [
+    {
+      "id": "automation",
+      "name": "Automation",
+      "description": "Advanced industrial automation solutions for modern manufacturing",
+      "products": ["PLCs", "HMIs", "SCADA Systems", "Industrial Robots"],
+      "applications": ["Assembly Lines", "Quality Control", "Material Handling", "Process Control"]
+    },
+    {
+      "id": "bearings", 
+      "name": "Bearings",
+      "description": "Precision bearings for high-performance industrial applications",
+      "products": ["Ball Bearings", "Roller Bearings", "Linear Bearings", "Thrust Bearings"],
+      "applications": ["Machine Tools", "Automotive", "Aerospace", "Mining Equipment"]
+    },
+    {
+      "id": "mechatronics",
+      "name": "Mechatronics", 
+      "description": "Integrated mechanical and electronic systems engineering",
+      "products": ["Servo Motors", "Drives", "Controllers", "Sensors"],
+      "applications": ["CNC Machines", "Packaging Equipment", "Textile Machinery", "Food Processing"]
+    },
+    {
+      "id": "medical",
+      "name": "Medical",
+      "description": "Medical device solutions with precision and reliability",
+      "products": ["Linear Actuators", "Precision Motors", "Medical Bearings", "Control Systems"],
+      "applications": ["Surgical Equipment", "Diagnostic Machines", "Patient Handling", "Laboratory Automation"]
+    },
+    {
+      "id": "pneumatics",
+      "name": "Pneumatics",
+      "description": "Pneumatic systems and components for industrial automation",
+      "products": ["Cylinders", "Valves", "Air Treatment", "Fittings"],
+      "applications": ["Assembly Automation", "Material Handling", "Packaging", "Machine Tools"]
+    },
+    {
+      "id": "robotics",
+      "name": "Robotics",
+      "description": "Robotic solutions for next-generation manufacturing", 
+      "products": ["Industrial Robots", "Collaborative Robots", "Robot Controllers", "End Effectors"],
+      "applications": ["Welding", "Painting", "Pick & Place", "Machine Tending"]
+    }
+  ],
+  "brands": [
+    {
+      "id": "hiwin",
+      "name": "Hiwin",
+      "category": "Linear Motion Technology",
+      "description": "World leader in linear motion technology and precision positioning systems",
+      "products": ["Linear Guideways", "Ballscrews", "Linear Motors", "Multi-Axis Stages"],
+      "headquarters": "Taiwan",
+      "website": "https://www.hiwin.com"
+    },
+    {
+      "id": "panasonic",
+      "name": "Panasonic",
+      "category": "Automation Solutions", 
+      "description": "Global leader in industrial automation and factory solutions",
+      "products": ["PLCs", "Servo Motors", "HMIs", "Vision Systems"],
+      "headquarters": "Japan",
+      "website": "https://www.panasonic.com"
+    },
+    {
+      "id": "mindman",
+      "name": "Mindman",
+      "category": "Pneumatic Components",
+      "description": "Professional pneumatic automation component manufacturer",
+      "products": ["Pneumatic Cylinders", "Solenoid Valves", "Air Treatment Units", "Fittings"],
+      "headquarters": "Taiwan",
+      "website": "https://www.mindman.com"
+    },
+    {
+      "id": "tpi-bearings",
+      "name": "TPI Bearings",
+      "category": "Precision Bearings",
+      "description": "High-quality precision bearings for industrial applications",
+      "products": ["Deep Groove Ball Bearings", "Angular Contact Bearings", "Cylindrical Roller Bearings"],
+      "headquarters": "India",
+      "website": "https://www.tpibearings.com"
+    },
+    {
+      "id": "timotion",
+      "name": "Timotion",
+      "category": "Electric Linear Actuators",
+      "description": "Leading manufacturer of electric linear actuators and lifting columns",
+      "products": ["Linear Actuators", "Lifting Columns", "Control Boxes", "Accessories"],
+      "headquarters": "Taiwan",
+      "website": "https://www.timotion.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "linear-guideway",
+      "name": "Linear Guideway Systems",
+      "category": "Linear Motion",
+      "brand": "Hiwin",
+      "description": "High-precision linear guideway systems for industrial automation and machine tools",
+      "features": ["High Rigidity", "Low Friction", "Long Life", "Easy Installation"],
+      "applications": ["CNC Machines", "Automation Equipment", "Semiconductor Equipment"],
+      "specifications": {
+        "sizes": "15mm - 65mm",
+        "accuracy": "±3μm",
+        "load_capacity": "Up to 127kN",
+        "temperature_range": "-20°C to +80°C"
+      }
+    },
+    {
+      "id": "ballscrew",
+      "name": "Precision Ballscrews",
+      "category": "Linear Motion",
+      "brand": "Hiwin", 
+      "description": "High-efficiency ballscrew assemblies for precise linear motion applications",
+      "features": ["High Efficiency", "Low Backlash", "Smooth Operation", "Customizable"],
+      "applications": ["Machine Tools", "Industrial Robots", "Automation Systems"],
+      "specifications": {
+        "diameter": "8mm - 80mm",
+        "lead": "1mm - 50mm", 
+        "accuracy": "C3 to C10",
+        "length": "Up to 6000mm"
+      }
+    },
+    {
+      "id": "servo-motor",
+      "name": "AC Servo Motors",
+      "category": "Motion Control",
+      "brand": "Panasonic",
+      "description": "High-performance AC servo motors for precision motion control applications",
+      "features": ["High Torque Density", "Low Inertia", "Precise Control", "Reliable Operation"],
+      "applications": ["CNC Machines", "Packaging Equipment", "Robotics", "Material Handling"],
+      "specifications": {
+        "power": "50W - 15kW",
+        "speed": "Up to 6000rpm",
+        "torque": "0.16Nm - 191Nm",
+        "encoder": "17-bit, 20-bit, 23-bit"
+      }
+    },
+    {
+      "id": "vfd",
+      "name": "Variable Frequency Drives",
+      "category": "Motor Control",
+      "brand": "Panasonic",
+      "description": "Energy-efficient VFDs for AC motor speed and torque control",
+      "features": ["Energy Saving", "Smooth Operation", "Easy Programming", "Network Connectivity"],
+      "applications": ["Pumps", "Fans", "Conveyors", "Compressors"],
+      "specifications": {
+        "power": "0.4kW - 630kW",
+        "voltage": "200V - 690V",
+        "frequency": "0.1Hz - 400Hz",
+        "efficiency": ">97%"  
+      }
+    },
+    {
+      "id": "industrial-bearings",
+      "name": "Industrial Ball Bearings",
+      "category": "Bearings",
+      "brand": "TPI Bearings",
+      "description": "High-quality deep groove ball bearings for industrial machinery",
+      "features": ["Low Friction", "Long Life", "High Load Capacity", "Versatile Design"],
+      "applications": ["Electric Motors", "Gearboxes", "Pumps", "Machine Tools"],
+      "specifications": {
+        "bore_diameter": "3mm - 320mm",
+        "load_rating": "Various",
+        "speed_rating": "Up to 30,000rpm",
+        "material": "Chrome Steel, Stainless Steel"
+      }
+    },
+    {
+      "id": "plc-hmi",
+      "name": "PLC & HMI Systems", 
+      "category": "Automation Control",
+      "brand": "Panasonic",
+      "description": "Programmable logic controllers and human machine interfaces for industrial automation",
+      "features": ["User-Friendly Programming", "Reliable Operation", "Expandable I/O", "Network Ready"],
+      "applications": ["Manufacturing Lines", "Process Control", "Building Automation", "Water Treatment"],
+      "specifications": {
+        "io_points": "10 - 2048",
+        "memory": "Up to 1MB",
+        "communication": "Ethernet, RS-485, USB",
+        "operating_temp": "-20°C to +55°C"
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "new-automation-facility",
+      "title": "Luna Opens New State-of-the-Art Automation Facility",
+      "date": "2024-09-15",
+      "category": "Company News",
+      "excerpt": "Our new 50,000 sq ft facility will enhance our automation solutions capacity and serve growing customer demand.",
+      "content": "Luna Industrial Solutions today announced the opening of its new state-of-the-art automation facility in Pune, Maharashtra. The 50,000 square foot facility will serve as a hub for automation system integration, testing, and training. The facility features advanced testing laboratories, demonstration areas, and training centers to support our customers' automation needs.",
+      "image": "/news/automation-facility.jpg"
+    },
+    {
+      "id": "partnership-hiwin",
+      "title": "Strategic Partnership Expansion with Hiwin Technologies",
+      "date": "2024-08-22", 
+      "category": "Partnership",
+      "excerpt": "Expanding our partnership with Hiwin to bring more linear motion solutions to the Indian market.",
+      "content": "Luna Industrial Solutions has expanded its strategic partnership with Hiwin Technologies, Taiwan's leading linear motion technology company. This expanded partnership will bring Hiwin's latest linear guideway and ballscrew technologies to the Indian market, supporting the growing demand for precision automation solutions in manufacturing industries.",
+      "image": "/news/hiwin-partnership.jpg"
+    },
+    {
+      "id": "industry-4-0-seminar",
+      "title": "Industry 4.0 Technical Seminar Series Launches",
+      "date": "2024-08-10",
+      "category": "Events",
+      "excerpt": "Comprehensive seminar series covering digital transformation in manufacturing and smart factory implementation.",
+      "content": "Luna Industrial Solutions launches its Industry 4.0 technical seminar series across major industrial cities in India. The seminars will cover topics including IoT integration, predictive maintenance, digital twins, and smart manufacturing solutions. Industry experts and technology partners will share insights on successful digital transformation strategies.",
+      "image": "/news/industry-4-seminar.jpg"
+    }
+  ],
+  "careers": [
+    {
+      "id": "automation-engineer",
+      "title": "Senior Automation Engineer",
+      "department": "Engineering",
+      "location": "Mumbai, Maharashtra",
+      "type": "Full-time",
+      "experience": "5-8 years",
+      "posted": "2024-09-10",
+      "description": "Lead automation system design and implementation for industrial clients. Work with cutting-edge PLC, HMI, and SCADA technologies.",
+      "requirements": [
+        "Bachelor's degree in Electrical/Electronics Engineering",
+        "5+ years experience in industrial automation",
+        "Proficiency in PLC programming (Siemens, Allen Bradley, Panasonic)",
+        "Experience with HMI/SCADA development",
+        "Knowledge of industrial communication protocols"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Health insurance",
+        "Professional development opportunities",
+        "Flexible working hours"
+      ]
+    },
+    {
+      "id": "technical-sales",
+      "title": "Technical Sales Engineer",
+      "department": "Sales",
+      "location": "Bangalore, Karnataka", 
+      "type": "Full-time",
+      "experience": "3-5 years",
+      "posted": "2024-09-05",
+      "description": "Drive technical sales of industrial automation and mechatronics solutions. Build relationships with key industrial customers.",
+      "requirements": [
+        "Bachelor's degree in Mechanical/Electrical Engineering",
+        "3+ years in technical sales or application engineering",
+        "Strong understanding of industrial automation products",
+        "Excellent communication and presentation skills",
+        "Willingness to travel"
+      ],
+      "benefits": [
+        "Attractive commission structure",
+        "Company vehicle",
+        "Travel allowances",
+        "Performance bonuses"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "id": "product-warranty",
+      "question": "What warranty do you provide on your products?",
+      "answer": "We provide comprehensive warranty coverage on all our products. Standard warranty periods range from 1-3 years depending on the product category. All branded products come with manufacturer warranty plus our additional service support."
+    },
+    {
+      "id": "technical-support", 
+      "question": "Do you provide technical support and training?",
+      "answer": "Yes, we offer comprehensive technical support including installation guidance, troubleshooting, maintenance training, and ongoing technical assistance. Our certified engineers provide on-site and remote support services."
+    },
+    {
+      "id": "custom-solutions",
+      "question": "Can you develop custom automation solutions?",
+      "answer": "Absolutely! We specialize in developing custom automation solutions tailored to specific customer requirements. Our engineering team works closely with clients to design, develop, and implement bespoke industrial automation systems."
+    },
+    {
+      "id": "delivery-time",
+      "question": "What are your typical delivery timelines?",
+      "answer": "Standard products are typically delivered within 2-4 weeks. Custom solutions may take 6-12 weeks depending on complexity. We maintain inventory of fast-moving items for immediate delivery and work with global suppliers for specialized components."
+    }
+  ]
+}
