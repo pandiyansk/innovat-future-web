@@ -66,44 +66,44 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: 'Linear Guideway',
-                description: 'High-precision linear motion systems for industrial automation',
-                features: ['High Rigidity', 'Low Friction', 'Long Life'],
-                href: '/products/linear-guideway'
-              },
-              {
-                title: 'Precision Ballscrews',
-                description: 'Efficient ballscrew assemblies for precise linear motion',
-                features: ['High Efficiency', 'Low Backlash', 'Customizable'],
-                href: '/products/ballscrew'
-              },
-              {
-                title: 'Servo Motors',
-                description: 'High-performance AC servo motors for motion control',
-                features: ['High Torque', 'Precise Control', 'Reliable'],
-                href: '/products/servo-motor'
-              },
-              {
-                title: 'Variable Frequency Drives',
-                description: 'Energy-efficient motor speed and torque control',
-                features: ['Energy Saving', 'Network Ready', 'Easy Programming'],
-                href: '/products/vfd'
-              },
-              {
-                title: 'Industrial Bearings',
-                description: 'High-quality bearings for industrial machinery',
-                features: ['Low Friction', 'High Load', 'Versatile'],
-                href: '/products/industrial-bearings'
-              },
-              {
-                title: 'PLC & HMI Systems',
-                description: 'Complete automation control and interface solutions',
-                features: ['User-Friendly', 'Expandable', 'Network Ready'],
-                href: '/products/plc-hmi'
-              },
-            ].map((product, index) => (
+              {[
+                {
+                  title: 'PLC Control Systems',
+                  description: 'Delta Electronics programmable logic controllers for automation',
+                  features: ['High Reliability', 'Easy Programming', 'Expandable'],
+                  href: '/products/plc-systems'
+                },
+                {
+                  title: 'Variable Frequency Drives',
+                  description: 'Energy-efficient motor speed and frequency control solutions',
+                  features: ['Energy Saving', 'Precise Control', 'Network Ready'],
+                  href: '/products/vfd'
+                },
+                {
+                  title: 'HMI Touch Panels',
+                  description: 'Human Machine Interface systems for industrial control',
+                  features: ['User-Friendly', 'Color Display', 'Network Ready'],
+                  href: '/products/hmi'
+                },
+                {
+                  title: 'Servo Drive Systems',
+                  description: 'High-precision AC servo drives and motors',
+                  features: ['High Precision', 'Low Vibration', 'Fast Response'],
+                  href: '/products/servo-drives'
+                },
+                {
+                  title: 'Industrial Motors',
+                  description: 'IE2/IE3 motors with various mounting configurations',
+                  features: ['High Efficiency', 'Low Maintenance', 'Versatile'],
+                  href: '/products/motors'
+                },
+                {
+                  title: 'Control Panels',
+                  description: 'Custom MS, SS, and Aluminium control panel solutions',
+                  features: ['Custom Design', 'Durable Build', 'Safety Certified'],
+                  href: '/products/control-panels'
+                },
+              ].map((product, index) => (
               <div
                 key={product.title}
                 className="card-industrial p-6 hover:shadow-xl transition-all duration-300 group animate-fade-in"
@@ -148,22 +148,25 @@ const Index = () => {
       {/* Company Highlight */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="animate-fade-in">
-                <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary font-medium mb-6">
-                  <Award className="h-4 w-4 mr-2" />
-                  30+ Years of Excellence
-                </div>
-                <h2 className="text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
-                  Your Trusted Industrial Problem Solver
-                </h2>
-                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                  For over three decades, Luna Industrial Solutions has been at the 
-                  forefront of industrial automation innovation. We've helped thousands 
-                  of manufacturers optimize their operations, reduce costs, and achieve 
-                  unprecedented levels of efficiency.
-                </p>
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="animate-fade-in">
+              <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 text-primary font-medium mb-6">
+                <Award className="h-4 w-4 mr-2" />
+                Leading Automation Provider
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-neutral-dark mb-6">
+                Your Trusted Industrial Automation Partner
+              </h2>
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                At Goodwill Automation and Service, we aim to play a vital role in the global 
+                supply chain through on-time delivery, cutting-edge technology, and uncompromising quality.
+              </p>
+              <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                We offer a wide range of advanced automation products, including AC Drives, PLCs, 
+                HMIs, Servo Systems, and Simotion Controllers, tailored to meet the evolving needs 
+                of modern industries.
+              </p>
                 
                 <div className="grid grid-cols-2 gap-6 mb-8">
                   <div className="text-center p-4 bg-muted/50 rounded-lg">

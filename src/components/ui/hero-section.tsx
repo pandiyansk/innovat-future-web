@@ -21,23 +21,26 @@ const HeroSection = () => {
           {/* Floating Badge */}
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-8 animate-fade-in">
             <span className="text-sm font-medium">
-              ✨ Trusted by 10,000+ Industrial Partners
+              ✨ Trusted Industrial Automation Partner
             </span>
           </div>
           
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-slide-up">
-            Innovating an
-            <br />
-            <span className="text-gradient-primary bg-gradient-to-r from-white to-red-200 bg-clip-text text-transparent">
-              EXTRAORDINARY FUTURE
+            <span className="text-gradient-primary bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+              GOODWILL AUTOMATION
             </span>
+            <br />
+            & SERVICE
           </h1>
           
           {/* Subheading */}
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed animate-fade-in">
-            Leading provider of industrial automation solutions, precision bearings, 
-            and cutting-edge mechatronics systems for modern manufacturing.
+            Leading the Charge in Energy & Automation Solutions
+          </p>
+          <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
+            We offer advanced automation products including AC Drives, PLCs, HMIs, Servo Systems, 
+            and complete energy solutions tailored for modern industries.
           </p>
           
           {/* Key Stats */}

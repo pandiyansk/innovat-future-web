@@ -2,63 +2,63 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Settings, 
-  CircleDot, 
+  Zap, 
   Cpu, 
-  Activity, 
   Wind, 
-  Bot,
+  Cable, 
+  Wrench,
   ArrowRight 
 } from 'lucide-react';
 
 const VerticalsGrid = () => {
   const verticals = [
     {
-      title: 'Automation',
-      description: 'Advanced industrial automation solutions for modern manufacturing',
+      title: 'Factory Automation',
+      description: 'PLC, VFD, HMI, and Servo Drive systems for complete automation',
       icon: Settings,
-      href: '/industries/automation',
-      color: 'from-red-500 to-red-600',
-      hoverColor: 'hover:from-red-600 hover:to-red-700'
-    },
-    {
-      title: 'Bearings',
-      description: 'Precision bearings for high-performance industrial applications',
-      icon: CircleDot,
-      href: '/industries/bearings',
+      href: '/industries/factory-automation',
       color: 'from-blue-500 to-blue-600',
       hoverColor: 'hover:from-blue-600 hover:to-blue-700'
     },
     {
-      title: 'Mechatronics',
-      description: 'Integrated mechanical and electronic systems engineering',
-      icon: Cpu,
-      href: '/industries/mechatronics',
+      title: 'Energy Solutions',
+      description: 'Siemens, INVT, and IMM energy-saving solutions',
+      icon: Zap,
+      href: '/industries/energy-solutions',
       color: 'from-green-500 to-green-600',
       hoverColor: 'hover:from-green-600 hover:to-green-700'
     },
     {
-      title: 'Medical',
-      description: 'Medical device solutions with precision and reliability',
-      icon: Activity,
-      href: '/industries/medical',
+      title: 'Industrial Motors',
+      description: 'IE2/IE3 motors with various mounting configurations',
+      icon: Cpu,
+      href: '/industries/motors',
       color: 'from-purple-500 to-purple-600',
       hoverColor: 'hover:from-purple-600 hover:to-purple-700'
     },
     {
-      title: 'Pneumatics',
-      description: 'Pneumatic systems and components for industrial automation',
+      title: 'Pneumatics & Valves',
+      description: 'Complete pneumatic systems, cylinders, and valve solutions',
       icon: Wind,
       href: '/industries/pneumatics',
       color: 'from-cyan-500 to-cyan-600',
       hoverColor: 'hover:from-cyan-600 hover:to-cyan-700'
     },
     {
-      title: 'Robotics',
-      description: 'Robotic solutions for next-generation manufacturing',
-      icon: Bot,
-      href: '/industries/robotics',
+      title: 'Cables & Sensors',
+      description: 'High-quality industrial cables and precision sensor systems',
+      icon: Cable,
+      href: '/industries/cables-sensors',
       color: 'from-orange-500 to-orange-600',
       hoverColor: 'hover:from-orange-600 hover:to-orange-700'
+    },
+    {
+      title: 'Control Panels',
+      description: 'MS, SS, and Aluminium control panels with PLC integration',
+      icon: Wrench,
+      href: '/industries/control-panels',
+      color: 'from-red-500 to-red-600',
+      hoverColor: 'hover:from-red-600 hover:to-red-700'
     },
   ];
 

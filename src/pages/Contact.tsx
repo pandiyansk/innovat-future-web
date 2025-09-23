@@ -67,27 +67,27 @@ const Contact = () => {
       icon: MapPin,
       title: 'Visit Our Office',
       details: [
-        '123 Industrial Street',
-        'Tech Park, Mumbai 400001',
-        'Maharashtra, India'
+        'NO.35/4, 2ND FLOOR, ABOVE SRIRAM FAST FOOD',
+        'NETHAJI ROAD, HOSUR-635 109',
+        'Tamil Nadu, India'
       ]
     },
     {
       icon: Phone,
       title: 'Call Us',
       details: [
-        '+91 123 456 7890',
-        '+91 123 456 7891',
-        'Toll Free: 1800 123 456'
+        '+91 98765 43210',
+        '+91 98765 43211',
+        'Toll Free: 1800 456 789'
       ]
     },
     {
       icon: Mail,
       title: 'Email Us',
       details: [
-        'info@lunatech.com',
-        'sales@lunatech.com',
-        'support@lunatech.com'
+        'info@goodwillautomation.com',
+        'sales@goodwillautomation.com',
+        'support@goodwillautomation.com'
       ]
     },
     {
@@ -110,11 +110,10 @@ const Contact = () => {
         <div className="container mx-auto px-4 text-center">
           <MessageSquare className="h-16 w-16 text-primary mx-auto mb-6" />
           <h1 className="text-4xl md:text-6xl font-bold text-neutral-dark mb-6">
-            Get In Touch
+            Contact Goodwill Automation and Service
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to transform your industrial operations? Our expert team is here 
-            to help you find the perfect automation solutions.
+            Get in touch with our automation experts for custom solutions and support
           </p>
         </div>
       </section>

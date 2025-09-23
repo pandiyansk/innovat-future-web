@@ -1,14 +1,14 @@
 {
   "company": {
-    "name": "Luna Industrial Solutions",
-    "tagline": "Innovating an Extraordinary Future",
-    "description": "Leading provider of industrial automation solutions, precision bearings, and cutting-edge mechatronics systems for modern manufacturing.",
-    "established": 1994,
-    "headquarters": "Mumbai, India",
+    "name": "Goodwill Automation and Service",
+    "tagline": "Leading the Charge in Energy & Automation Solutions",
+    "description": "We offer advanced automation products including AC Drives, PLCs, HMIs, Servo Systems, and complete energy solutions tailored for modern industries.",
+    "established": 2010,
+    "headquarters": "Hosur, Tamil Nadu",
     "contact": {
-      "phone": "+91 123 456 7890",
-      "email": "info@lunatech.com",
-      "address": "123 Industrial Street, Tech Park, Mumbai 400001, Maharashtra, India"
+      "phone": "+91 98765 43210",
+      "email": "info@goodwillautomation.com",
+      "address": "NO.35/4, 2ND FLOOR, ABOVE SRIRAM FAST FOOD, NETHAJI ROAD, HOSUR-635 109"
     }
   },
   "verticals": [

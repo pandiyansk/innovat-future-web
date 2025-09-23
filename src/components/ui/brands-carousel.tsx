@@ -3,14 +3,14 @@ import { Card } from '@/components/ui/card';
 
 const BrandsCarousel = () => {
   const brands = [
-    { name: 'Hiwin', logo: 'H', description: 'Linear Motion Technology' },
-    { name: 'Panasonic', logo: 'P', description: 'Automation Solutions' },
-    { name: 'Mindman', logo: 'M', description: 'Pneumatic Components' },
-    { name: 'TPI Bearings', logo: 'T', description: 'Precision Bearings' },
-    { name: 'Timotion', logo: 'TM', description: 'Electric Linear Actuators' },
-    { name: 'SKF', logo: 'S', description: 'Bearing Solutions' },
-    { name: 'NSK', logo: 'N', description: 'Motion & Control' },
-    { name: 'THK', logo: 'THK', description: 'Linear Motion Systems' },
+    { name: 'Delta Electronics', logo: 'Δ', description: 'PLC & Automation Solutions' },
+    { name: 'Schneider Electric', logo: 'SE', description: 'Energy Management' },
+    { name: 'Siemens', logo: 'S', description: 'Industrial Automation' },
+    { name: 'INVT', logo: 'INVT', description: 'Energy Saving Solutions' },
+    { name: 'INOVANCE', logo: 'IN', description: 'Drive Technology' },
+    { name: 'SKF', logo: 'SKF', description: 'Bearing Solutions' },
+    { name: 'NTN', logo: 'NTN', description: 'Precision Bearings' },
+    { name: 'SMC', logo: 'SMC', description: 'Pneumatic Solutions' },
   ];
 
   return (

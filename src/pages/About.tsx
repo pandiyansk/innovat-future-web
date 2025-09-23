@@ -103,20 +103,21 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h2 className="text-4xl font-bold text-neutral-dark mb-6">
-                Our Story
+              <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark mb-6">
+                Our Mission
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Founded in 1994 with a vision to revolutionize Indian manufacturing, 
-                Luna Industrial Solutions began as a small bearing distributor in Mumbai. 
-                Through relentless innovation and unwavering commitment to quality, we've 
-                evolved into one of India's leading providers of industrial automation solutions.
+                At Goodwill Automation and Service, we aim to play a vital role in the global 
+                supply chain through on-time delivery, cutting-edge technology, and uncompromising quality.
+              </p>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                We offer a wide range of advanced automation products, including AC Drives, PLCs, 
+                HMIs, Servo Systems, and Simotion Controllers, tailored to meet the evolving needs 
+                of modern industries.
               </p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Today, we serve over 10,000 customers across 15+ cities, offering comprehensive 
-                solutions in automation, bearings, mechatronics, medical devices, pneumatics, 
-                and robotics. Our partnerships with global leaders like Hiwin, Panasonic, 
-                and Mindman enable us to deliver world-class technology to Indian industries.
+                As a global leader in industrial sensor technology, we specialize in Factory Automation, 
+                delivering flexible, application-specific solutions that ensure operational excellence.
               </p>
               <Button asChild size="lg">
                 <Link to="/contact">

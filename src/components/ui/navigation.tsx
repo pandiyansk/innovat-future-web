@@ -31,11 +31,11 @@ const Navigation = () => {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4" />
-              <span>+91 123 456 7890</span>
+              <span>+91 98765 43210</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
-              <span>info@lunatech.com</span>
+              <span>info@goodwillautomation.com</span>
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-4">
@@ -52,11 +52,11 @@ const Navigation = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">L</span>
+                <span className="text-white font-bold text-xl">G</span>
               </div>
               <div>
-                <div className="text-xl font-bold text-primary">Luna</div>
-                <div className="text-xs text-muted-foreground">Industrial Solutions</div>
+                <div className="text-xl font-bold text-primary">Goodwill</div>
+                <div className="text-xs text-muted-foreground">Automation & Service</div>
               </div>
             </Link>
 
