@@ -2,16 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-bg.jpg';
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      {/* Background Video with Overlay */}
+      <div className="absolute inset-0">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="https://cdn.pixabay.com/video/2023/05/08/161358-823910990_large.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 gradient-hero" />
       </div>
       
@@ -42,24 +47,6 @@ const HeroSection = () => {
             We offer advanced automation products including AC Drives, PLCs, HMIs, Servo Systems, 
             and complete energy solutions tailored for modern industries.
           </p>
-          
-          {/* Key Stats */}
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-8 mb-12 animate-scale-in">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white">30+</div>
-              <div className="text-sm text-gray-300">Years Experience</div>
-            </div>
-            <div className="hidden sm:block w-px h-12 bg-white/30" />
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white">10,000+</div>
-              <div className="text-sm text-gray-300">Happy Clients</div>
-            </div>
-            <div className="hidden sm:block w-px h-12 bg-white/30" />
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white">500+</div>
-              <div className="text-sm text-gray-300">Product Lines</div>
-            </div>
-          </div>
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">

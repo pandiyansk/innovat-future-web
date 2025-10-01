@@ -9,6 +9,38 @@ import { Link } from 'react-router-dom';
 import { Search, Filter, ArrowRight, Star, Award } from 'lucide-react';
 import seedData from '@/content/seed.json';
 
+// Import product images
+import plcSystemImg from '@/assets/products/plc-system.jpg';
+import vfdDriveImg from '@/assets/products/vfd-drive.jpg';
+import hmiPanelImg from '@/assets/products/hmi-panel.jpg';
+import servoDriveImg from '@/assets/products/servo-drive.jpg';
+import industrialMotorImg from '@/assets/products/industrial-motor.jpg';
+import bearingsImg from '@/assets/products/bearings.jpg';
+import linearMotionImg from '@/assets/products/linear-motion.jpg';
+import gearboxImg from '@/assets/products/gearbox.jpg';
+import pneumaticsImg from '@/assets/products/pneumatics.jpg';
+import sensorsImg from '@/assets/products/sensors.jpg';
+import cablesImg from '@/assets/products/cables.jpg';
+import transformerImg from '@/assets/products/transformer.jpg';
+import controlPanelImg from '@/assets/products/control-panel.jpg';
+
+// Image mapping
+const productImages: { [key: string]: string } = {
+  'plc-system.jpg': plcSystemImg,
+  'vfd-drive.jpg': vfdDriveImg,
+  'hmi-panel.jpg': hmiPanelImg,
+  'servo-drive.jpg': servoDriveImg,
+  'industrial-motor.jpg': industrialMotorImg,
+  'bearings.jpg': bearingsImg,
+  'linear-motion.jpg': linearMotionImg,
+  'gearbox.jpg': gearboxImg,
+  'pneumatics.jpg': pneumaticsImg,
+  'sensors.jpg': sensorsImg,
+  'cables.jpg': cablesImg,
+  'transformer.jpg': transformerImg,
+  'control-panel.jpg': controlPanelImg,
+};
+
 const Products = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -108,69 +140,82 @@ const Products = () => {
             {filteredProducts.map((product, index) => (
               <Card 
                 key={product.id}
-                className="p-6 hover:shadow-xl transition-all duration-300 group animate-fade-in"
+                className="overflow-hidden hover:shadow-xl transition-all duration-300 group animate-fade-in"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                {/* Product Header */}
-                <div className="flex justify-between items-start mb-4">
-                  <Badge variant="secondary" className="text-xs">
-                    {product.category}
-                  </Badge>
-                  <div className="flex items-center space-x-1 text-yellow-500">
-                    <Star className="h-4 w-4 fill-current" />
-                    <span className="text-sm text-muted-foreground">4.8</span>
+                {/* Product Image */}
+                {product.image && productImages[product.image] && (
+                  <div className="relative h-48 overflow-hidden bg-muted">
+                    <img 
+                      src={productImages[product.image]} 
+                      alt={product.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
                   </div>
-                </div>
+                )}
                 
-                {/* Brand */}
-                <div className="text-sm text-primary font-medium mb-2">
-                  {product.brand}
-                </div>
-                
-                {/* Title & Description */}
-                <h3 className="text-xl font-bold text-neutral-dark mb-3 group-hover:text-primary transition-colors">
-                  {product.name}
-                </h3>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  {product.description}
-                </p>
-                
-                {/* Features */}
-                <div className="space-y-2 mb-6">
-                  <h4 className="text-sm font-semibold text-neutral-dark">Key Features:</h4>
-                  <ul className="space-y-1">
-                    {product.features.slice(0, 3).map((feature, idx) => (
-                      <li key={idx} className="text-sm text-muted-foreground flex items-center">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                
-                {/* Applications */}
-                <div className="mb-6">
-                  <h4 className="text-sm font-semibold text-neutral-dark mb-2">Applications:</h4>
-                  <div className="flex flex-wrap gap-1">
-                    {product.applications.slice(0, 2).map((app, idx) => (
-                      <Badge key={idx} variant="outline" className="text-xs">
-                        {app}
-                      </Badge>
-                    ))}
+                <div className="p-6">
+                  {/* Product Header */}
+                  <div className="flex justify-between items-start mb-4">
+                    <Badge variant="secondary" className="text-xs">
+                      {product.category}
+                    </Badge>
+                    <div className="flex items-center space-x-1 text-yellow-500">
+                      <Star className="h-4 w-4 fill-current" />
+                      <span className="text-sm text-muted-foreground">4.8</span>
+                    </div>
                   </div>
-                </div>
-                
-                {/* CTA */}
-                <div className="flex flex-col space-y-3">
-                  <Button asChild className="w-full">
-                    <Link to={`/products/${product.id}`}>
-                      View Details
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
-                  <Button variant="outline" size="sm" className="w-full">
-                    Request Quote
-                  </Button>
+                  
+                  {/* Brand */}
+                  <div className="text-sm text-primary font-medium mb-2">
+                    {product.brand}
+                  </div>
+                  
+                  {/* Title & Description */}
+                  <h3 className="text-xl font-bold text-neutral-dark mb-3 group-hover:text-primary transition-colors">
+                    {product.name}
+                  </h3>
+                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                    {product.description}
+                  </p>
+                  
+                  {/* Features */}
+                  <div className="space-y-2 mb-6">
+                    <h4 className="text-sm font-semibold text-neutral-dark">Key Features:</h4>
+                    <ul className="space-y-1">
+                      {product.features.slice(0, 3).map((feature, idx) => (
+                        <li key={idx} className="text-sm text-muted-foreground flex items-center">
+                          <div className="w-1.5 h-1.5 bg-primary rounded-full mr-2" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  
+                  {/* Applications */}
+                  <div className="mb-6">
+                    <h4 className="text-sm font-semibold text-neutral-dark mb-2">Applications:</h4>
+                    <div className="flex flex-wrap gap-1">
+                      {product.applications.slice(0, 2).map((app, idx) => (
+                        <Badge key={idx} variant="outline" className="text-xs">
+                          {app}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  {/* CTA */}
+                  <div className="flex flex-col space-y-3">
+                    <Button asChild className="w-full">
+                      <Link to={`/products/${product.id}`}>
+                        View Details
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
+                    </Button>
+                    <Button variant="outline" size="sm" className="w-full">
+                      Request Quote
+                    </Button>
+                  </div>
                 </div>
               </Card>
             ))}
