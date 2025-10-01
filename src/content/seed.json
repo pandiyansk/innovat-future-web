@@ -57,140 +57,319 @@
   ],
   "brands": [
     {
-      "id": "hiwin",
-      "name": "Hiwin",
-      "category": "Linear Motion Technology",
-      "description": "World leader in linear motion technology and precision positioning systems",
-      "products": ["Linear Guideways", "Ballscrews", "Linear Motors", "Multi-Axis Stages"],
+      "id": "delta",
+      "name": "Delta Electronics",
+      "category": "Automation Products",
+      "description": "Leading provider of power and thermal management solutions",
+      "products": ["PLCs", "VFDs", "Servo Systems", "HMIs", "Industrial Automation"],
       "headquarters": "Taiwan",
-      "website": "https://www.hiwin.com"
+      "website": "https://www.delta.com"
     },
     {
-      "id": "panasonic",
-      "name": "Panasonic",
-      "category": "Automation Solutions", 
-      "description": "Global leader in industrial automation and factory solutions",
-      "products": ["PLCs", "Servo Motors", "HMIs", "Vision Systems"],
+      "id": "mitsubishi",
+      "name": "Mitsubishi Electric",
+      "category": "Factory Automation",
+      "description": "Global leader in automation and motion control solutions",
+      "products": ["PLCs", "Servo Motors", "Inverters", "HMIs", "Robots"],
       "headquarters": "Japan",
-      "website": "https://www.panasonic.com"
+      "website": "https://www.mitsubishielectric.com"
     },
     {
-      "id": "mindman",
-      "name": "Mindman",
-      "category": "Pneumatic Components",
-      "description": "Professional pneumatic automation component manufacturer",
-      "products": ["Pneumatic Cylinders", "Solenoid Valves", "Air Treatment Units", "Fittings"],
-      "headquarters": "Taiwan",
-      "website": "https://www.mindman.com"
+      "id": "schneider",
+      "name": "Schneider Electric",
+      "category": "Energy Management",
+      "description": "Digital automation and energy management solutions",
+      "products": ["PLCs", "Drives", "Switches", "Sensors", "Control Systems"],
+      "headquarters": "France",
+      "website": "https://www.schneider-electric.com"
     },
     {
-      "id": "tpi-bearings",
-      "name": "TPI Bearings",
-      "category": "Precision Bearings",
-      "description": "High-quality precision bearings for industrial applications",
-      "products": ["Deep Groove Ball Bearings", "Angular Contact Bearings", "Cylindrical Roller Bearings"],
+      "id": "siemens",
+      "name": "Siemens",
+      "category": "Industrial Automation",
+      "description": "Global technology leader in automation and digitalization",
+      "products": ["PLCs", "Drives", "Motors", "HMIs", "Industrial Communication"],
+      "headquarters": "Germany",
+      "website": "https://www.siemens.com"
+    },
+    {
+      "id": "inovance",
+      "name": "Inovance",
+      "category": "Automation Technology",
+      "description": "Professional provider of industrial automation solutions",
+      "products": ["Servo Drives", "VFDs", "PLCs", "HMIs", "Motion Control"],
+      "headquarters": "China",
+      "website": "https://www.inovance.com"
+    },
+    {
+      "id": "invt",
+      "name": "INVT",
+      "category": "Power Electronics",
+      "description": "Leading manufacturer of frequency inverters and automation products",
+      "products": ["VFDs", "Servo Systems", "PLCs", "Solar Inverters"],
+      "headquarters": "China",
+      "website": "https://www.invt.com"
+    },
+    {
+      "id": "abb",
+      "name": "ABB",
+      "category": "Motors & Drives",
+      "description": "Technology leader in electrification and automation",
+      "products": ["Industrial Motors", "VFDs", "Robotics", "Control Systems"],
+      "headquarters": "Switzerland",
+      "website": "https://www.abb.com"
+    },
+    {
+      "id": "weg",
+      "name": "WEG",
+      "category": "Electric Motors",
+      "description": "Global manufacturer of electric motors and drives",
+      "products": ["IE2/IE3 Motors", "VFDs", "Soft Starters", "Generators"],
+      "headquarters": "Brazil",
+      "website": "https://www.weg.net"
+    },
+    {
+      "id": "skf",
+      "name": "SKF",
+      "category": "Bearings & Seals",
+      "description": "World's leading bearing and seal manufacturing company",
+      "products": ["Ball Bearings", "Roller Bearings", "Seals", "Lubrication Systems"],
+      "headquarters": "Sweden",
+      "website": "https://www.skf.com"
+    },
+    {
+      "id": "ntn",
+      "name": "NTN",
+      "category": "Bearings",
+      "description": "Comprehensive bearing manufacturer with global presence",
+      "products": ["Ball Bearings", "Roller Bearings", "Automotive Bearings"],
+      "headquarters": "Japan",
+      "website": "https://www.ntn.com"
+    },
+    {
+      "id": "janatics",
+      "name": "Janatics",
+      "category": "Pneumatics",
+      "description": "Leading pneumatic components manufacturer",
+      "products": ["Cylinders", "Valves", "Air Treatment", "Fittings"],
       "headquarters": "India",
-      "website": "https://www.tpibearings.com"
+      "website": "https://www.janatics.com"
     },
     {
-      "id": "timotion",
-      "name": "Timotion",
-      "category": "Electric Linear Actuators",
-      "description": "Leading manufacturer of electric linear actuators and lifting columns",
-      "products": ["Linear Actuators", "Lifting Columns", "Control Boxes", "Accessories"],
-      "headquarters": "Taiwan",
-      "website": "https://www.timotion.com"
+      "id": "smc",
+      "name": "SMC",
+      "category": "Pneumatic Solutions",
+      "description": "World's largest manufacturer of pneumatic automation products",
+      "products": ["Cylinders", "Valves", "Air Treatment", "Actuators"],
+      "headquarters": "Japan",
+      "website": "https://www.smcworld.com"
+    },
+    {
+      "id": "airtech",
+      "name": "Airtech",
+      "category": "Pneumatics",
+      "description": "Quality pneumatic components and systems",
+      "products": ["Cylinders", "Valves", "FRLs", "Quick Couplings"],
+      "headquarters": "India",
+      "website": "https://www.airtech.com"
     }
   ],
   "products": [
     {
-      "id": "linear-guideway",
-      "name": "Linear Guideway Systems",
-      "category": "Linear Motion",
-      "brand": "Hiwin",
-      "description": "High-precision linear guideway systems for industrial automation and machine tools",
-      "features": ["High Rigidity", "Low Friction", "Long Life", "Easy Installation"],
-      "applications": ["CNC Machines", "Automation Equipment", "Semiconductor Equipment"],
+      "id": "plc-systems",
+      "name": "PLC Systems",
+      "category": "Factory Automation",
+      "brand": "Delta",
+      "description": "Programmable Logic Controllers for industrial automation and control",
+      "features": ["High Reliability", "Easy Programming", "Modular Design", "Network Connectivity"],
+      "applications": ["Manufacturing", "Process Control", "Building Automation"],
       "specifications": {
-        "sizes": "15mm - 65mm",
-        "accuracy": "±3μm",
-        "load_capacity": "Up to 127kN",
-        "temperature_range": "-20°C to +80°C"
-      }
-    },
-    {
-      "id": "ballscrew",
-      "name": "Precision Ballscrews",
-      "category": "Linear Motion",
-      "brand": "Hiwin", 
-      "description": "High-efficiency ballscrew assemblies for precise linear motion applications",
-      "features": ["High Efficiency", "Low Backlash", "Smooth Operation", "Customizable"],
-      "applications": ["Machine Tools", "Industrial Robots", "Automation Systems"],
-      "specifications": {
-        "diameter": "8mm - 80mm",
-        "lead": "1mm - 50mm", 
-        "accuracy": "C3 to C10",
-        "length": "Up to 6000mm"
-      }
-    },
-    {
-      "id": "servo-motor",
-      "name": "AC Servo Motors",
-      "category": "Motion Control",
-      "brand": "Panasonic",
-      "description": "High-performance AC servo motors for precision motion control applications",
-      "features": ["High Torque Density", "Low Inertia", "Precise Control", "Reliable Operation"],
-      "applications": ["CNC Machines", "Packaging Equipment", "Robotics", "Material Handling"],
-      "specifications": {
-        "power": "50W - 15kW",
-        "speed": "Up to 6000rpm",
-        "torque": "0.16Nm - 191Nm",
-        "encoder": "17-bit, 20-bit, 23-bit"
+        "io_points": "10 - 2048",
+        "memory": "Up to 512KB",
+        "communication": "Ethernet, RS-485, USB"
       }
     },
     {
       "id": "vfd",
       "name": "Variable Frequency Drives",
-      "category": "Motor Control",
-      "brand": "Panasonic",
-      "description": "Energy-efficient VFDs for AC motor speed and torque control",
-      "features": ["Energy Saving", "Smooth Operation", "Easy Programming", "Network Connectivity"],
+      "category": "Factory Automation",
+      "brand": "Siemens",
+      "description": "Energy-efficient motor speed and frequency control solutions",
+      "features": ["Energy Saving", "Precise Control", "Network Ready", "Easy Installation"],
       "applications": ["Pumps", "Fans", "Conveyors", "Compressors"],
       "specifications": {
         "power": "0.4kW - 630kW",
         "voltage": "200V - 690V",
-        "frequency": "0.1Hz - 400Hz",
-        "efficiency": ">97%"  
+        "frequency": "0.1Hz - 400Hz"
       }
     },
     {
-      "id": "industrial-bearings",
-      "name": "Industrial Ball Bearings",
+      "id": "hmi-panels",
+      "name": "HMI Touch Panels",
+      "category": "Factory Automation",
+      "brand": "Mitsubishi",
+      "description": "Human Machine Interface systems for industrial control and monitoring",
+      "features": ["Color Display", "Touch Interface", "Data Logging", "Recipe Management"],
+      "applications": ["Machine Control", "Process Monitoring", "Data Visualization"],
+      "specifications": {
+        "screen_size": "4.3\" - 15\"",
+        "resolution": "480x272 - 1920x1080",
+        "communication": "Ethernet, USB, Serial"
+      }
+    },
+    {
+      "id": "servo-drives",
+      "name": "AC Servo Drives",
+      "category": "Factory Automation",
+      "brand": "Inovance",
+      "description": "High-precision servo motor drives for motion control applications",
+      "features": ["High Precision", "Fast Response", "Low Vibration", "Multiple Feedback Options"],
+      "applications": ["CNC Machines", "Packaging", "Robotics", "Material Handling"],
+      "specifications": {
+        "power": "0.1kW - 15kW",
+        "voltage": "220V - 380V",
+        "control_modes": "Position, Speed, Torque"
+      }
+    },
+    {
+      "id": "industrial-motors",
+      "name": "Industrial Motors",
+      "category": "Industrial Motors",
+      "brand": "ABB",
+      "description": "IE2/IE3 energy-efficient industrial motors with various mounting configurations",
+      "features": ["High Efficiency", "Low Maintenance", "Versatile Mounting", "Wide Power Range"],
+      "applications": ["Pumps", "Fans", "Compressors", "Conveyors"],
+      "specifications": {
+        "power": "0.12kW - 500kW",
+        "voltage": "230V - 690V",
+        "efficiency": "IE2, IE3 Class",
+        "mounting": "Foot, Flange, B3, B5, B14"
+      }
+    },
+    {
+      "id": "bearings",
+      "name": "Industrial Bearings",
       "category": "Bearings",
-      "brand": "TPI Bearings",
-      "description": "High-quality deep groove ball bearings for industrial machinery",
-      "features": ["Low Friction", "Long Life", "High Load Capacity", "Versatile Design"],
-      "applications": ["Electric Motors", "Gearboxes", "Pumps", "Machine Tools"],
+      "brand": "SKF",
+      "description": "High-quality bearings for industrial machinery and equipment",
+      "features": ["Low Friction", "Long Life", "High Load Capacity", "Corrosion Resistant"],
+      "applications": ["Motors", "Gearboxes", "Pumps", "Conveyors"],
       "specifications": {
-        "bore_diameter": "3mm - 320mm",
-        "load_rating": "Various",
-        "speed_rating": "Up to 30,000rpm",
-        "material": "Chrome Steel, Stainless Steel"
+        "types": "Ball, Roller, Thrust",
+        "bore": "3mm - 320mm",
+        "brands": "SKF, NTN, FAG, NSK"
       }
     },
     {
-      "id": "plc-hmi",
-      "name": "PLC & HMI Systems", 
-      "category": "Automation Control",
-      "brand": "Panasonic",
-      "description": "Programmable logic controllers and human machine interfaces for industrial automation",
-      "features": ["User-Friendly Programming", "Reliable Operation", "Expandable I/O", "Network Ready"],
-      "applications": ["Manufacturing Lines", "Process Control", "Building Automation", "Water Treatment"],
+      "id": "linear-motion",
+      "name": "Linear Motion Products",
+      "category": "Linear Motion",
+      "brand": "Hiwin",
+      "description": "Precision linear motion systems including guideways and actuators",
+      "features": ["High Precision", "Low Friction", "Long Life", "Smooth Motion"],
+      "applications": ["CNC Machines", "Automation", "Medical Equipment"],
       "specifications": {
-        "io_points": "10 - 2048",
-        "memory": "Up to 1MB",
-        "communication": "Ethernet, RS-485, USB",
-        "operating_temp": "-20°C to +55°C"
+        "accuracy": "±3μm",
+        "load_capacity": "Up to 127kN",
+        "sizes": "15mm - 65mm"
+      }
+    },
+    {
+      "id": "ballscrews",
+      "name": "Ballscrews & Linear Guideway",
+      "category": "Linear Motion",
+      "brand": "Hiwin",
+      "description": "High-efficiency ballscrew assemblies for precise linear motion",
+      "features": ["High Efficiency", "Low Backlash", "Smooth Operation", "Customizable"],
+      "applications": ["CNC Machines", "Robots", "Automation Systems"],
+      "specifications": {
+        "diameter": "8mm - 80mm",
+        "lead": "1mm - 50mm",
+        "accuracy": "C3 to C10"
+      }
+    },
+    {
+      "id": "gearbox",
+      "name": "ZD Gearbox",
+      "category": "Power Transmission",
+      "brand": "ZD",
+      "description": "Industrial gearboxes for power transmission and speed reduction",
+      "features": ["High Torque", "Low Noise", "Compact Design", "Long Service Life"],
+      "applications": ["Conveyors", "Mixers", "Crushers", "Packaging Machines"],
+      "specifications": {
+        "ratios": "5:1 to 100:1",
+        "torque": "Up to 50,000 Nm",
+        "types": "Helical, Worm, Planetary"
+      }
+    },
+    {
+      "id": "pneumatics",
+      "name": "Pneumatic Systems",
+      "category": "Pneumatics",
+      "brand": "Janatics",
+      "description": "Complete pneumatic solutions including cylinders, valves, and accessories",
+      "features": ["Reliable Operation", "Easy Maintenance", "Wide Range", "Cost-Effective"],
+      "applications": ["Assembly", "Material Handling", "Clamping", "Packaging"],
+      "specifications": {
+        "pressure": "0-10 bar",
+        "brands": "Janatics, SMC, Airtech",
+        "types": "Cylinders, Valves, FRLs"
+      }
+    },
+    {
+      "id": "sensors",
+      "name": "Industrial Sensors",
+      "category": "Automation",
+      "brand": "Omron",
+      "description": "Precision sensors for industrial automation and control",
+      "features": ["High Accuracy", "Fast Response", "Durable", "Easy Installation"],
+      "applications": ["Position Detection", "Level Sensing", "Temperature Monitoring"],
+      "specifications": {
+        "types": "Proximity, Photoelectric, Temperature, Pressure",
+        "output": "PNP, NPN, Analog",
+        "protection": "IP67, IP68"
+      }
+    },
+    {
+      "id": "cables",
+      "name": "Industrial Cables",
+      "category": "Electrical",
+      "brand": "Polycab",
+      "description": "High-quality industrial cables for power and control applications",
+      "features": ["Flame Retardant", "Oil Resistant", "Flexible", "Durable"],
+      "applications": ["Machine Wiring", "Panel Wiring", "Motor Connections"],
+      "specifications": {
+        "types": "Power, Control, Instrumentation",
+        "voltage": "Up to 1100V",
+        "sizes": "0.5 sq.mm - 300 sq.mm"
+      }
+    },
+    {
+      "id": "transformers",
+      "name": "Transformers & Stabilizers",
+      "category": "Power",
+      "brand": "V-Guard",
+      "description": "Power transformers and voltage stabilizers for industrial applications",
+      "features": ["Voltage Regulation", "Overload Protection", "Energy Efficient", "Reliable"],
+      "applications": ["Machine Protection", "Power Conditioning", "Voltage Conversion"],
+      "specifications": {
+        "capacity": "1kVA - 500kVA",
+        "input": "230V - 690V",
+        "accuracy": "±1%"
+      }
+    },
+    {
+      "id": "control-panels",
+      "name": "Control Panels",
+      "category": "Control Systems",
+      "brand": "Goodwill",
+      "description": "Custom-built control panels in MS, SS, and Aluminium with PLC integration",
+      "features": ["Custom Design", "PLC Integration", "Safety Certified", "Durable Construction"],
+      "applications": ["Machine Control", "Process Automation", "Building Management"],
+      "specifications": {
+        "materials": "MS, SS304, Aluminium",
+        "rating": "IP54, IP65, IP66",
+        "certification": "CE, UL"
       }
     }
   ],

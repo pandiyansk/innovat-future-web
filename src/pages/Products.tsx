@@ -16,11 +16,16 @@ const Products = () => {
 
   const categories = [
     'all',
-    'Linear Motion',
-    'Motion Control', 
-    'Motor Control',
+    'Factory Automation',
+    'Industrial Motors',
     'Bearings',
-    'Automation Control'
+    'Linear Motion',
+    'Power Transmission',
+    'Pneumatics',
+    'Automation',
+    'Electrical',
+    'Power',
+    'Control Systems'
   ];
 
   const brands = ['all', ...seedData.brands.map(b => b.name)];

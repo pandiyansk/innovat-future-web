@@ -168,13 +168,17 @@ const Index = () => {
                 of modern industries.
               </p>
                 
-                <div className="grid grid-cols-2 gap-6 mb-8">
+                <div className="grid grid-cols-3 gap-6 mb-8">
                   <div className="text-center p-4 bg-muted/50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary mb-1">10,000+</div>
-                    <div className="text-sm text-muted-foreground">Satisfied Customers</div>
+                    <div className="text-3xl font-bold text-primary mb-1">50+</div>
+                    <div className="text-sm text-muted-foreground">Expert Team</div>
                   </div>
                   <div className="text-center p-4 bg-muted/50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary mb-1">500+</div>
+                    <div className="text-3xl font-bold text-primary mb-1">1000+</div>
+                    <div className="text-sm text-muted-foreground">Happy Clients</div>
+                  </div>
+                  <div className="text-center p-4 bg-muted/50 rounded-lg">
+                    <div className="text-3xl font-bold text-primary mb-1">500+</div>
                     <div className="text-sm text-muted-foreground">Product Lines</div>
                   </div>
                 </div>
