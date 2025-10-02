@@ -63,7 +63,8 @@
       "description": "Leading provider of power and thermal management solutions",
       "products": ["PLCs", "VFDs", "Servo Systems", "HMIs", "Industrial Automation"],
       "headquarters": "Taiwan",
-      "website": "https://www.delta.com"
+      "website": "https://www.delta.com",
+      "logo": "delta.png"
     },
     {
       "id": "mitsubishi",
@@ -72,7 +73,8 @@
       "description": "Global leader in automation and motion control solutions",
       "products": ["PLCs", "Servo Motors", "Inverters", "HMIs", "Robots"],
       "headquarters": "Japan",
-      "website": "https://www.mitsubishielectric.com"
+      "website": "https://www.mitsubishielectric.com",
+      "logo": "mitsubishi.png"
     },
     {
       "id": "schneider",
@@ -81,7 +83,8 @@
       "description": "Digital automation and energy management solutions",
       "products": ["PLCs", "Drives", "Switches", "Sensors", "Control Systems"],
       "headquarters": "France",
-      "website": "https://www.schneider-electric.com"
+      "website": "https://www.schneider-electric.com",
+      "logo": "schneider.png"
     },
     {
       "id": "siemens",
@@ -90,7 +93,8 @@
       "description": "Global technology leader in automation and digitalization",
       "products": ["PLCs", "Drives", "Motors", "HMIs", "Industrial Communication"],
       "headquarters": "Germany",
-      "website": "https://www.siemens.com"
+      "website": "https://www.siemens.com",
+      "logo": "siemens.png"
     },
     {
       "id": "inovance",
@@ -99,7 +103,8 @@
       "description": "Professional provider of industrial automation solutions",
       "products": ["Servo Drives", "VFDs", "PLCs", "HMIs", "Motion Control"],
       "headquarters": "China",
-      "website": "https://www.inovance.com"
+      "website": "https://www.inovance.com",
+      "logo": "inovance.png"
     },
     {
       "id": "invt",
@@ -108,7 +113,8 @@
       "description": "Leading manufacturer of frequency inverters and automation products",
       "products": ["VFDs", "Servo Systems", "PLCs", "Solar Inverters"],
       "headquarters": "China",
-      "website": "https://www.invt.com"
+      "website": "https://www.invt.com",
+      "logo": "invt.png"
     },
     {
       "id": "abb",
@@ -117,7 +123,8 @@
       "description": "Technology leader in electrification and automation",
       "products": ["Industrial Motors", "VFDs", "Robotics", "Control Systems"],
       "headquarters": "Switzerland",
-      "website": "https://www.abb.com"
+      "website": "https://www.abb.com",
+      "logo": "abb.png"
     },
     {
       "id": "weg",
@@ -126,7 +133,8 @@
       "description": "Global manufacturer of electric motors and drives",
       "products": ["IE2/IE3 Motors", "VFDs", "Soft Starters", "Generators"],
       "headquarters": "Brazil",
-      "website": "https://www.weg.net"
+      "website": "https://www.weg.net",
+      "logo": "weg.png"
     },
     {
       "id": "skf",
@@ -135,7 +143,8 @@
       "description": "World's leading bearing and seal manufacturing company",
       "products": ["Ball Bearings", "Roller Bearings", "Seals", "Lubrication Systems"],
       "headquarters": "Sweden",
-      "website": "https://www.skf.com"
+      "website": "https://www.skf.com",
+      "logo": "skf.png"
     },
     {
       "id": "ntn",
@@ -144,7 +153,8 @@
       "description": "Comprehensive bearing manufacturer with global presence",
       "products": ["Ball Bearings", "Roller Bearings", "Automotive Bearings"],
       "headquarters": "Japan",
-      "website": "https://www.ntn.com"
+      "website": "https://www.ntn.com",
+      "logo": "ntn.png"
     },
     {
       "id": "janatics",
@@ -153,7 +163,8 @@
       "description": "Leading pneumatic components manufacturer",
       "products": ["Cylinders", "Valves", "Air Treatment", "Fittings"],
       "headquarters": "India",
-      "website": "https://www.janatics.com"
+      "website": "https://www.janatics.com",
+      "logo": "janatics.png"
     },
     {
       "id": "smc",
@@ -162,7 +173,8 @@
       "description": "World's largest manufacturer of pneumatic automation products",
       "products": ["Cylinders", "Valves", "Air Treatment", "Actuators"],
       "headquarters": "Japan",
-      "website": "https://www.smcworld.com"
+      "website": "https://www.smcworld.com",
+      "logo": "smc.png"
     },
     {
       "id": "airtech",
@@ -171,7 +183,8 @@
       "description": "Quality pneumatic components and systems",
       "products": ["Cylinders", "Valves", "FRLs", "Quick Couplings"],
       "headquarters": "India",
-      "website": "https://www.airtech.com"
+      "website": "https://www.airtech.com",
+      "logo": "airtech.png"
     }
   ],
   "products": [

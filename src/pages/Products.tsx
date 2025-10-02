@@ -24,6 +24,27 @@ import cablesImg from '@/assets/products/cables.jpg';
 import transformerImg from '@/assets/products/transformer.jpg';
 import controlPanelImg from '@/assets/products/control-panel.jpg';
 
+// Import brand logos
+import deltaLogo from '@/assets/brands/delta.png';
+import mitsubishiLogo from '@/assets/brands/mitsubishi.png';
+import schneiderLogo from '@/assets/brands/schneider.png';
+import siemensLogo from '@/assets/brands/siemens.png';
+import inovanceLogo from '@/assets/brands/inovance.png';
+import invtLogo from '@/assets/brands/invt.png';
+import abbLogo from '@/assets/brands/abb.png';
+import wegLogo from '@/assets/brands/weg.png';
+import skfLogo from '@/assets/brands/skf.png';
+import ntnLogo from '@/assets/brands/ntn.png';
+import janaticsLogo from '@/assets/brands/janatics.png';
+import smcLogo from '@/assets/brands/smc.png';
+import airtechLogo from '@/assets/brands/airtech.png';
+import omronLogo from '@/assets/brands/omron.png';
+import polycabLogo from '@/assets/brands/polycab.png';
+import hiwinLogo from '@/assets/brands/hiwin.png';
+import vguardLogo from '@/assets/brands/vguard.png';
+import zdLogo from '@/assets/brands/zd.png';
+import goodwillLogo from '@/assets/brands/goodwill.png';
+
 // Image mapping
 const productImages: { [key: string]: string } = {
   'plc-system.jpg': plcSystemImg,
@@ -39,6 +60,29 @@ const productImages: { [key: string]: string } = {
   'cables.jpg': cablesImg,
   'transformer.jpg': transformerImg,
   'control-panel.jpg': controlPanelImg,
+};
+
+// Brand logo mapping
+const brandLogos: { [key: string]: string } = {
+  'Delta': deltaLogo,
+  'Mitsubishi': mitsubishiLogo,
+  'Schneider': schneiderLogo,
+  'Siemens': siemensLogo,
+  'Inovance': inovanceLogo,
+  'INVT': invtLogo,
+  'ABB': abbLogo,
+  'WEG': wegLogo,
+  'SKF': skfLogo,
+  'NTN': ntnLogo,
+  'Janatics': janaticsLogo,
+  'SMC': smcLogo,
+  'Airtech': airtechLogo,
+  'Omron': omronLogo,
+  'Polycab': polycabLogo,
+  'Hiwin': hiwinLogo,
+  'V-Guard': vguardLogo,
+  'ZD': zdLogo,
+  'Goodwill': goodwillLogo,
 };
 
 const Products = () => {
@@ -151,6 +195,16 @@ const Products = () => {
                       alt={product.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
+                    {/* Brand Logo Overlay */}
+                    {product.brand && brandLogos[product.brand] && (
+                      <div className="absolute top-2 right-2 bg-white/95 backdrop-blur-sm p-2 rounded-md shadow-md">
+                        <img 
+                          src={brandLogos[product.brand]} 
+                          alt={`${product.brand} logo`}
+                          className="h-8 w-auto object-contain"
+                        />
+                      </div>
+                    )}
                   </div>
                 )}
                 
@@ -166,9 +220,18 @@ const Products = () => {
                     </div>
                   </div>
                   
-                  {/* Brand */}
-                  <div className="text-sm text-primary font-medium mb-2">
-                    {product.brand}
+                  {/* Brand with Logo */}
+                  <div className="flex items-center gap-2 mb-3">
+                    {product.brand && brandLogos[product.brand] && (
+                      <img 
+                        src={brandLogos[product.brand]} 
+                        alt={`${product.brand} logo`}
+                        className="h-6 w-auto object-contain"
+                      />
+                    )}
+                    <span className="text-sm text-primary font-medium">
+                      {product.brand}
+                    </span>
                   </div>
                   
                   {/* Title & Description */}
