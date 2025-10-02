@@ -177,6 +177,36 @@ const Products = () => {
         </div>
       </section>
       
+      {/* Brands Showcase */}
+      <section className="py-20 bg-gradient-to-br from-secondary/5 to-primary/5">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-neutral-dark mb-4">
+              Our Trusted Partners
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              We partner with world-leading manufacturers to bring you the best industrial automation solutions
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 mb-8">
+            {seedData.brands.map((brand, index) => (
+              <div
+                key={brand.name}
+                className="bg-background rounded-lg p-6 flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-105 animate-fade-in"
+                style={{ animationDelay: `${index * 50}ms` }}
+              >
+                <img
+                  src={brandLogos[brand.name]}
+                  alt={`${brand.name} logo`}
+                  className="h-16 w-auto object-contain"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      
       {/* Products Grid */}
       <section className="py-20">
         <div className="container mx-auto px-4">
