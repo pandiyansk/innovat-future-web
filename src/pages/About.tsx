@@ -126,24 +126,6 @@ const About = () => {
                 </Link>
               </Button>
             </div>
-            
-            {/* Stats Grid */}
-            <div className="grid grid-cols-2 gap-6 animate-scale-in">
-              {achievements.map((stat, index) => (
-                <Card 
-                  key={stat.label}
-                  className="p-6 text-center hover:shadow-lg transition-all duration-300"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
-                    {stat.number}
-                  </div>
-                  <div className="text-sm text-muted-foreground font-medium">
-                    {stat.label}
-                  </div>
-                </Card>
-              ))}
-            </div>
           </div>
         </div>
       </section>
@@ -181,59 +163,6 @@ const About = () => {
                 </Card>
               );
             })}
-          </div>
-        </div>
-      </section>
-      
-      {/* Timeline */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-neutral-dark mb-4">
-              Our Journey
-            </h2>
-            <p className="text-xl text-muted-foreground">
-              Key milestones in our 30-year journey of innovation and growth
-            </p>
-          </div>
-          
-          <div className="max-w-4xl mx-auto">
-            <div className="relative">
-              {/* Timeline line */}
-              <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 top-0 bottom-0 w-0.5 bg-primary/20" />
-              
-              {milestones.map((milestone, index) => (
-                <div 
-                  key={milestone.year}
-                  className={`relative flex items-center mb-12 animate-slide-up ${
-                    index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                  }`}
-                  style={{ animationDelay: `${index * 200}ms` }}
-                >
-                  {/* Timeline dot */}
-                  <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 bg-primary rounded-full flex items-center justify-center z-10">
-                    <div className="w-4 h-4 bg-white rounded-full" />
-                  </div>
-                  
-                  {/* Content */}
-                  <div className={`ml-16 md:ml-0 md:w-1/2 ${
-                    index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'
-                  }`}>
-                    <Card className="p-6 hover:shadow-lg transition-all duration-300">
-                      <div className="text-2xl font-bold text-primary mb-2">
-                        {milestone.year}
-                      </div>
-                      <h3 className="text-xl font-bold text-neutral-dark mb-3">
-                        {milestone.title}
-                      </h3>
-                      <p className="text-muted-foreground">
-                        {milestone.description}
-                      </p>
-                    </Card>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
