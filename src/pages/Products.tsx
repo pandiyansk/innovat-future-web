@@ -189,18 +189,21 @@ const Products = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 mb-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-8">
             {seedData.brands.map((brand, index) => (
               <div
                 key={brand.name}
-                className="bg-background rounded-lg p-6 flex items-center justify-center hover:shadow-lg transition-all duration-300 hover:scale-105 animate-fade-in"
+                className="bg-background rounded-lg p-8 flex flex-col items-center justify-center hover:shadow-xl transition-all duration-300 hover:scale-105 animate-fade-in group"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
                 <img
                   src={brandLogos[brand.name]}
                   alt={`${brand.name} logo`}
-                  className="h-16 w-auto object-contain"
+                  className="h-24 w-auto object-contain mb-4 group-hover:scale-110 transition-transform duration-300"
                 />
+                <p className="text-sm font-semibold text-neutral-dark text-center">
+                  {brand.name}
+                </p>
               </div>
             ))}
           </div>
