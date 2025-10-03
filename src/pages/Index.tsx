@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from '@/components/ui/navigation';
 import Footer from '@/components/ui/footer';
 import HeroSection from '@/components/ui/hero-section';
+import FeaturedCategories from '@/components/ui/featured-categories';
 import VerticalsGrid from '@/components/ui/verticals-grid';
 import BrandsCarousel from '@/components/ui/brands-carousel';
 import ValuesSection from '@/components/ui/values-section';
@@ -16,6 +17,9 @@ const Index = () => {
       
       {/* Hero Section */}
       <HeroSection />
+      
+      {/* Featured Categories */}
+      <FeaturedCategories />
       
       {/* Verticals Grid */}  
       <VerticalsGrid />
