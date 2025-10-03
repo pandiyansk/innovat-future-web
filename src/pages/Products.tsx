@@ -25,9 +25,6 @@ import transformerImg from '@/assets/products/transformer.jpg';
 import controlPanelImg from '@/assets/products/control-panel.jpg';
 
 // Import brand logos
-import deltaLogo from '@/assets/brands/delta.png';
-import mitsubishiLogo from '@/assets/brands/mitsubishi.png';
-import schneiderLogo from '@/assets/brands/schneider.png';
 import siemensLogo from '@/assets/brands/siemens.png';
 import inovanceLogo from '@/assets/brands/inovance.png';
 import invtLogo from '@/assets/brands/invt.png';
@@ -44,6 +41,9 @@ import hiwinLogo from '@/assets/brands/hiwin.png';
 import vguardLogo from '@/assets/brands/vguard.png';
 import zdLogo from '@/assets/brands/zd.png';
 import goodwillLogo from '@/assets/brands/goodwill.png';
+import deltaLogo from '@/assets/brands/delta.png';
+import mitsubishiLogo from '@/assets/brands/mitsubishi.png';
+import schneiderLogo from '@/assets/brands/schneider.png';
 
 // Image mapping
 const productImages: { [key: string]: string } = {
