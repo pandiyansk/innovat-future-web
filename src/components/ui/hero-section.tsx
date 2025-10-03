@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, Download, Settings, Circle, Wind } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -49,10 +49,10 @@ const HeroSection = () => {
           </p>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in mb-20">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary-hover text-white px-8 py-4 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 animate-pulse-glow"
+              className="bg-white hover:bg-gray-100 text-primary px-8 py-4 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 font-semibold"
               asChild
             >
               <Link to="/solution-finder">
@@ -64,21 +64,38 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="bg-white/10 hover:bg-white/20 text-white border-white/30 hover:border-white/50 px-8 py-4 text-lg backdrop-blur-sm"
+              className="bg-transparent hover:bg-white/10 text-white border-2 border-white/50 hover:border-white px-8 py-4 text-lg backdrop-blur-sm font-semibold"
               asChild
             >
-              <Link to="/downloads">
+              <Link to="/products">
                 <Download className="mr-2 h-5 w-5" />
                 Download Catalogue
               </Link>
             </Button>
           </div>
           
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-white/70 rounded-full mt-2 animate-pulse" />
-            </div>
+          {/* Category Icons */}
+          <div className="grid grid-cols-3 gap-8 md:gap-16 max-w-2xl mx-auto mt-12 animate-fade-in" style={{ animationDelay: '300ms' }}>
+            <Link to="/products" className="flex flex-col items-center gap-3 group">
+              <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                <Settings className="w-full h-full text-white" strokeWidth={1.5} />
+              </div>
+              <span className="text-white text-lg md:text-xl font-semibold">Automation</span>
+            </Link>
+            
+            <Link to="/products" className="flex flex-col items-center gap-3 group">
+              <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                <Circle className="w-full h-full text-white" strokeWidth={1.5} />
+              </div>
+              <span className="text-white text-lg md:text-xl font-semibold">Bearings</span>
+            </Link>
+            
+            <Link to="/products" className="flex flex-col items-center gap-3 group">
+              <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
+                <Wind className="w-full h-full text-white" strokeWidth={1.5} />
+              </div>
+              <span className="text-white text-lg md:text-xl font-semibold">Pneumatics</span>
+            </Link>
           </div>
         </div>
       </div>
