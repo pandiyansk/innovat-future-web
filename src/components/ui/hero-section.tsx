@@ -15,7 +15,7 @@ const HeroSection = () => {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="https://cdn.pixabay.com/video/2023/05/08/161358-823910990_large.mp4" type="video/mp4" />
+          <source src="/hero-background.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 gradient-hero" />
       </div>
