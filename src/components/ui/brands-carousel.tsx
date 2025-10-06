@@ -1,16 +1,46 @@
 import React from 'react';
 import { Card } from '@/components/ui/card';
+import abbLogo from '@/assets/brands/abb.png';
+import airtechLogo from '@/assets/brands/airtech.png';
+import deltaLogo from '@/assets/brands/delta.png';
+import goodwillLogo from '@/assets/brands/goodwill.png';
+import hiwinLogo from '@/assets/brands/hiwin.png';
+import inovanceLogo from '@/assets/brands/inovance.png';
+import invtLogo from '@/assets/brands/invt.png';
+import janaticsLogo from '@/assets/brands/janatics.png';
+import mitsubishiLogo from '@/assets/brands/mitsubishi.png';
+import ntnLogo from '@/assets/brands/ntn.png';
+import omronLogo from '@/assets/brands/omron.png';
+import polycabLogo from '@/assets/brands/polycab.png';
+import schneiderLogo from '@/assets/brands/schneider.png';
+import siemensLogo from '@/assets/brands/siemens.png';
+import skfLogo from '@/assets/brands/skf.png';
+import smcLogo from '@/assets/brands/smc.png';
+import vguardLogo from '@/assets/brands/vguard.png';
+import wegLogo from '@/assets/brands/weg.png';
+import zdLogo from '@/assets/brands/zd.png';
 
 const BrandsCarousel = () => {
   const brands = [
-    { name: 'Delta Electronics', logo: 'Δ', description: 'PLC & Automation Solutions' },
-    { name: 'Schneider Electric', logo: 'SE', description: 'Energy Management' },
-    { name: 'Siemens', logo: 'S', description: 'Industrial Automation' },
-    { name: 'INVT', logo: 'INVT', description: 'Energy Saving Solutions' },
-    { name: 'INOVANCE', logo: 'IN', description: 'Drive Technology' },
-    { name: 'SKF', logo: 'SKF', description: 'Bearing Solutions' },
-    { name: 'NTN', logo: 'NTN', description: 'Precision Bearings' },
-    { name: 'SMC', logo: 'SMC', description: 'Pneumatic Solutions' },
+    { name: 'Delta Electronics', logo: deltaLogo, description: 'PLC & Automation Solutions' },
+    { name: 'Mitsubishi Electric', logo: mitsubishiLogo, description: 'Factory Automation & CNC' },
+    { name: 'Schneider Electric', logo: schneiderLogo, description: 'Energy Management' },
+    { name: 'Siemens', logo: siemensLogo, description: 'Industrial Automation' },
+    { name: 'INVT', logo: invtLogo, description: 'Energy Saving Solutions' },
+    { name: 'INOVANCE', logo: inovanceLogo, description: 'Drive Technology' },
+    { name: 'SKF', logo: skfLogo, description: 'Bearing Solutions' },
+    { name: 'NTN', logo: ntnLogo, description: 'Precision Bearings' },
+    { name: 'SMC', logo: smcLogo, description: 'Pneumatic Solutions' },
+    { name: 'ABB', logo: abbLogo, description: 'Power & Automation Technologies' },
+    { name: 'Airtech', logo: airtechLogo, description: 'Pneumatic Components' },
+    { name: 'Goodwill', logo: goodwillLogo, description: 'Automation & Service' },
+    { name: 'Hiwin', logo: hiwinLogo, description: 'Linear Motion & Control' },
+    { name: 'Janatics', logo: janaticsLogo, description: 'Pneumatic Cylinders & Valves' },
+    { name: 'Omron', logo: omronLogo, description: 'Industrial Automation' },
+    { name: 'Polycab', logo: polycabLogo, description: 'Cables & Wires' },
+    { name: 'V-Guard', logo: vguardLogo, description: 'Electrical & Electronic Products' },
+    { name: 'Weg', logo: wegLogo, description: 'Motors & Drives' },
+    { name: 'ZD', logo: zdLogo, description: 'Gear Motors' },
   ];
 
   return (
@@ -37,7 +67,7 @@ const BrandsCarousel = () => {
             >
               {/* Logo Placeholder */}
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-primary/10 to-primary/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                <span className="text-2xl font-bold text-primary">{brand.logo}</span>
+                <img src={brand.logo} alt={brand.name} className="h-10 w-10 object-contain" />
               </div>
               
               {/* Brand Info */}
@@ -60,7 +90,7 @@ const BrandsCarousel = () => {
                 className="flex-shrink-0 flex items-center space-x-3 bg-white px-6 py-3 rounded-lg shadow-sm"
               >
                 <div className="w-8 h-8 bg-gradient-to-br from-primary/10 to-primary/20 rounded-lg flex items-center justify-center">
-                  <span className="text-sm font-bold text-primary">{brand.logo}</span>
+                  <img src={brand.logo} alt={brand.name} className="h-6 w-6 object-contain" />
                 </div>
                 <span className="font-medium text-neutral-dark whitespace-nowrap">
                   {brand.name}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Download, Settings, Circle, Wind } from 'lucide-react';
+import { ArrowRight, Download, Cog, Disc, AirVent } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
@@ -78,21 +78,21 @@ const HeroSection = () => {
           <div className="grid grid-cols-3 gap-8 md:gap-16 max-w-2xl mx-auto mt-12 animate-fade-in" style={{ animationDelay: '300ms' }}>
             <Link to="/products" className="flex flex-col items-center gap-3 group">
               <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                <Settings className="w-full h-full text-white" strokeWidth={1.5} />
+                <Cog className="w-full h-full text-white" strokeWidth={1.5} />
               </div>
               <span className="text-white text-lg md:text-xl font-semibold">Automation</span>
             </Link>
             
             <Link to="/products" className="flex flex-col items-center gap-3 group">
               <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                <Circle className="w-full h-full text-white" strokeWidth={1.5} />
+                <Disc className="w-full h-full text-white" strokeWidth={1.5} />
               </div>
               <span className="text-white text-lg md:text-xl font-semibold">Bearings</span>
             </Link>
             
             <Link to="/products" className="flex flex-col items-center gap-3 group">
               <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                <Wind className="w-full h-full text-white" strokeWidth={1.5} />
+                <AirVent className="w-full h-full text-white" strokeWidth={1.5} />
               </div>
               <span className="text-white text-lg md:text-xl font-semibold">Pneumatics</span>
             </Link>
