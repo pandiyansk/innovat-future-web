@@ -11,18 +11,26 @@ import seedData from '@/content/seed.json';
 
 // Import product images
 import plcSystemImg from '@/assets/products/plc-system.jpg';
+import plcDeltaImg from '@/assets/products/plc-delta.png';
 import vfdDriveImg from '@/assets/products/vfd-drive.jpg';
+import vfdDeltaImg from '@/assets/products/vfd-delta.png';
 import hmiPanelImg from '@/assets/products/hmi-panel.jpg';
+import hmiDeltaImg from '@/assets/products/hmi-delta.png';
 import servoDriveImg from '@/assets/products/servo-drive.jpg';
+import servoDeltaImg from '@/assets/products/servo-delta.png';
 import industrialMotorImg from '@/assets/products/industrial-motor.jpg';
+import motorsWegImg from '@/assets/products/motors-weg.png';
 import bearingsImg from '@/assets/products/bearings.jpg';
 import linearMotionImg from '@/assets/products/linear-motion.jpg';
+import hiwinLinearImg from '@/assets/products/hiwin-linear.png';
 import gearboxImg from '@/assets/products/gearbox.jpg';
 import pneumaticsImg from '@/assets/products/pneumatics.jpg';
+import pneumaticsJanaticsImg from '@/assets/products/pneumatics-janatics.png';
 import sensorsImg from '@/assets/products/sensors.jpg';
 import cablesImg from '@/assets/products/cables.jpg';
 import transformerImg from '@/assets/products/transformer.jpg';
 import controlPanelImg from '@/assets/products/control-panel.jpg';
+import controlPanelNewImg from '@/assets/products/control-panel-new.png';
 
 // Import brand logos
 import siemensLogo from '@/assets/brands/siemens.png';
@@ -48,18 +56,26 @@ import schneiderLogo from '@/assets/brands/schneider.png';
 // Image mapping
 const productImages: { [key: string]: string } = {
   'plc-system.jpg': plcSystemImg,
+  'plc-delta.png': plcDeltaImg,
   'vfd-drive.jpg': vfdDriveImg,
+  'vfd-delta.png': vfdDeltaImg,
   'hmi-panel.jpg': hmiPanelImg,
+  'hmi-delta.png': hmiDeltaImg,
   'servo-drive.jpg': servoDriveImg,
+  'servo-delta.png': servoDeltaImg,
   'industrial-motor.jpg': industrialMotorImg,
+  'motors-weg.png': motorsWegImg,
   'bearings.jpg': bearingsImg,
   'linear-motion.jpg': linearMotionImg,
+  'hiwin-linear.png': hiwinLinearImg,
   'gearbox.jpg': gearboxImg,
   'pneumatics.jpg': pneumaticsImg,
+  'pneumatics-janatics.png': pneumaticsJanaticsImg,
   'sensors.jpg': sensorsImg,
   'cables.jpg': cablesImg,
   'transformer.jpg': transformerImg,
   'control-panel.jpg': controlPanelImg,
+  'control-panel-new.png': controlPanelNewImg,
 };
 
 // Brand logo mapping

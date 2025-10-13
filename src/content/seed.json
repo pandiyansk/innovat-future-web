@@ -185,216 +185,358 @@
       "headquarters": "India",
       "website": "https://www.airtech.com",
       "logo": "airtech.png"
+    },
+    {
+      "id": "omron",
+      "name": "Omron",
+      "category": "Automation",
+      "description": "Industrial automation and control solutions",
+      "products": ["Sensors", "PLCs", "Safety Systems", "Vision Systems"],
+      "headquarters": "Japan",
+      "website": "https://www.omron.com",
+      "logo": "omron.png"
+    },
+    {
+      "id": "polycab",
+      "name": "Polycab",
+      "category": "Cables & Wires",
+      "description": "India's leading manufacturer of cables and wires",
+      "products": ["Power Cables", "Control Cables", "Industrial Cables"],
+      "headquarters": "India",
+      "website": "https://www.polycab.com",
+      "logo": "polycab.png"
+    },
+    {
+      "id": "hiwin",
+      "name": "Hiwin",
+      "category": "Linear Motion",
+      "description": "Precision linear motion and control technology",
+      "products": ["Linear Guideways", "Ball Screws", "Linear Motors", "Stages"],
+      "headquarters": "Taiwan",
+      "website": "https://www.hiwin.com",
+      "logo": "hiwin.png"
+    },
+    {
+      "id": "vguard",
+      "name": "V-Guard",
+      "category": "Electrical Products",
+      "description": "Leading electrical and electronic products manufacturer",
+      "products": ["Stabilizers", "Cables", "UPS", "Inverters"],
+      "headquarters": "India",
+      "website": "https://www.vguard.in",
+      "logo": "vguard.png"
+    },
+    {
+      "id": "zd",
+      "name": "ZD",
+      "category": "Gear Motors",
+      "description": "Specialized in mini AC gear motors",
+      "products": ["Gear Motors", "Speed Control Motors", "Brake Motors", "DC Gear Motors"],
+      "headquarters": "China",
+      "website": "https://www.zd-motor.com",
+      "logo": "zd.png"
+    },
+    {
+      "id": "goodwill",
+      "name": "Goodwill",
+      "category": "Automation & Service",
+      "description": "Automation solutions and engineering services",
+      "products": ["Control Panels", "Automation Systems", "Engineering Services"],
+      "headquarters": "India",
+      "website": "https://www.goodwillautomation.com",
+      "logo": "goodwill.png"
     }
   ],
   "products": [
     {
-      "id": "plc-systems",
-      "name": "PLC Systems",
+      "id": "plc-delta-dvp",
+      "name": "Delta PLC DVP Series",
       "category": "Factory Automation",
       "brand": "Delta",
       "image": "plc-system.jpg",
-      "description": "Programmable Logic Controllers for industrial automation and control",
-      "features": ["High Reliability", "Easy Programming", "Modular Design", "Network Connectivity"],
-      "applications": ["Manufacturing", "Process Control", "Building Automation"],
+      "description": "Programmable Logic Controllers for industrial automation - Model DVP14SS, DVP12SA, DVP10SX, DVP28SV, DVP16SP, AS228T-A",
+      "features": ["High Reliability & Stability", "Easy Programming with WPLSoft", "Modular Expandable Design", "Network Connectivity - Ethernet/RS-485"],
+      "applications": ["Manufacturing Automation", "Process Control", "Building Automation", "Material Handling"],
       "specifications": {
+        "models": "DVP14SS, DVP12SA, DVP10SX, DVP28SV, DVP16SP, AS228T-A",
         "io_points": "10 - 2048",
         "memory": "Up to 512KB",
         "communication": "Ethernet, RS-485, USB"
       }
     },
     {
-      "id": "vfd",
-      "name": "Variable Frequency Drives",
+      "id": "hmi-delta-dop",
+      "name": "Delta HMI DOP Series",
       "category": "Factory Automation",
-      "brand": "Siemens",
-      "image": "vfd-drive.jpg",
-      "description": "Energy-efficient motor speed and frequency control solutions",
-      "features": ["Energy Saving", "Precise Control", "Network Ready", "Easy Installation"],
-      "applications": ["Pumps", "Fans", "Conveyors", "Compressors"],
+      "brand": "Delta",
+      "image": "hmi-panel.jpg",
+      "description": "Touch Panel Human-Machine Interface - 4.3, 7, and 10 inch models including DOP103BQ, DOP103WQ, DOP107CV, DOP107BV, DOP107WV",
+      "features": ["High Resolution Color Display", "Multi-Touch Capability", "Recipe Management & Data Logging", "Multiple Protocol Support"],
+      "applications": ["Machine Control", "Process Monitoring", "Data Visualization", "Production Management"],
       "specifications": {
-        "power": "0.4kW - 630kW",
-        "voltage": "200V - 690V",
+        "sizes": "4.3 inch, 7 inch, 10 inch",
+        "models": "DOP103BQ, DOP103WQ, DOP107CV, DOP107BV, DOP107WV",
+        "resolution": "480x272 - 1920x1080",
+        "communication": "Ethernet, USB, RS-232/485"
+      }
+    },
+    {
+      "id": "vfd-delta-el",
+      "name": "Delta VFD EL/MS-300 Series",
+      "category": "Factory Automation",
+      "brand": "Delta",
+      "image": "vfd-drive.jpg",
+      "description": "Variable Frequency Drives for energy-efficient motor control. EL-W: Single Phase 0.25-3hp, Three Phase 1-5hp. MS-300 & ME: Up to 10hp. C2000: 0.75kW to 630kW",
+      "features": ["Energy Saving up to 40%", "Precise Speed Control", "Soft Start & Stop", "Network Ready - Modbus/Ethernet"],
+      "applications": ["Pumps & Fans", "Conveyors & Material Handling", "Compressors", "Injection Molding Machines (IMM)"],
+      "specifications": {
+        "series": "VFD-EL-W, VFD-MS-300, VFD-EL, VFD-ME, VFD-C2000",
+        "power_range": "0.25hp to 630kW",
+        "voltage": "Single Phase & Three Phase",
         "frequency": "0.1Hz - 400Hz"
       }
     },
     {
-      "id": "hmi-panels",
-      "name": "HMI Touch Panels",
+      "id": "servo-delta-asda",
+      "name": "Delta Servo ASDA Series",
       "category": "Factory Automation",
-      "brand": "Mitsubishi",
-      "image": "hmi-panel.jpg",
-      "description": "Human Machine Interface systems for industrial control and monitoring",
-      "features": ["Color Display", "Touch Interface", "Data Logging", "Recipe Management"],
-      "applications": ["Machine Control", "Process Monitoring", "Data Visualization"],
-      "specifications": {
-        "screen_size": "4.3\" - 15\"",
-        "resolution": "480x272 - 1920x1080",
-        "communication": "Ethernet, USB, Serial"
-      }
-    },
-    {
-      "id": "servo-drives",
-      "name": "AC Servo Drives",
-      "category": "Factory Automation",
-      "brand": "Inovance",
+      "brand": "Delta",
       "image": "servo-drive.jpg",
-      "description": "High-precision servo motor drives for motion control applications",
-      "features": ["High Precision", "Fast Response", "Low Vibration", "Multiple Feedback Options"],
-      "applications": ["CNC Machines", "Packaging", "Robotics", "Material Handling"],
+      "description": "AC Servo Motor & Drive Systems - ASDA-A2, ASDA-A3, ASDA-B2, ASDA-B3, ASDA-E3 series for high-precision motion control",
+      "features": ["Ultra-High Precision Positioning", "Fast Dynamic Response", "Low Vibration & Noise", "Multiple Feedback Options - Incremental/Absolute"],
+      "applications": ["CNC Machines", "Packaging Equipment", "Robotics & Automation", "Textile & Printing Machinery"],
       "specifications": {
+        "models": "ASDA-A2, ASDA-A3, ASDA-B2, ASDA-B3, ASDA-E3",
         "power": "0.1kW - 15kW",
         "voltage": "220V - 380V",
         "control_modes": "Position, Speed, Torque"
       }
     },
     {
-      "id": "industrial-motors",
-      "name": "Industrial Motors",
-      "category": "Industrial Motors",
-      "brand": "ABB",
-      "image": "industrial-motor.jpg",
-      "description": "IE2/IE3 energy-efficient industrial motors with various mounting configurations",
-      "features": ["High Efficiency", "Low Maintenance", "Versatile Mounting", "Wide Power Range"],
-      "applications": ["Pumps", "Fans", "Compressors", "Conveyors"],
+      "id": "mitsubishi-automation",
+      "name": "Mitsubishi Factory Automation",
+      "category": "Factory Automation",
+      "brand": "Mitsubishi",
+      "image": "plc-system.jpg",
+      "description": "Complete factory automation solutions including PLCs, VFDs, Servo Systems, HMIs and CNC controllers from Mitsubishi Electric",
+      "features": ["Integrated Automation Platform", "High-Speed Processing", "Reliability & Quality", "Advanced Motion Control"],
+      "applications": ["Factory Automation", "CNC Machining", "Motion Control Systems", "Industrial Robotics"],
       "specifications": {
-        "power": "0.12kW - 500kW",
-        "voltage": "230V - 690V",
-        "efficiency": "IE2, IE3 Class",
-        "mounting": "Foot, Flange, B3, B5, B14"
+        "product_line": "PLCs, Servo Motors, Inverters, HMIs, CNC",
+        "motto": "Changes for the Better"
       }
     },
     {
-      "id": "bearings",
+      "id": "invt-energy-saving",
+      "name": "INVT Energy Saving Solutions",
+      "category": "Factory Automation",
+      "brand": "INVT",
+      "image": "vfd-drive.jpg",
+      "description": "Complete energy saving solutions for Injection Molding Machines (IMM) including VFD, HMI, PLC, and AC Servo Drive systems",
+      "features": ["Investment Integrity", "Energy Efficiency up to 60%", "Complete System Integration", "Reliable Performance"],
+      "applications": ["Injection Molding Machines", "Plastic Processing", "Industrial Energy Management", "Manufacturing Automation"],
+      "specifications": {
+        "products": "Variable Frequency Drive, Programmable Logic Controller, Human Machine Interface, AC Servo Drive and Motor"
+      }
+    },
+    {
+      "id": "inovance-automation",
+      "name": "INOVANCE Automation Systems",
+      "category": "Factory Automation",
+      "brand": "Inovance",
+      "image": "servo-drive.jpg",
+      "description": "Advanced industrial automation solutions including servo drives, VFDs, PLCs, and motion controllers for energy-efficient manufacturing",
+      "features": ["Advanced Drive Technology", "Energy Saving for IMM", "Integrated Control Systems", "High Performance"],
+      "applications": ["Injection Molding", "CNC Machinery", "Textile Equipment", "Packaging Machines"],
+      "specifications": {
+        "specialization": "Energy Saving Solutions for Injection Molding Machines"
+      }
+    },
+    {
+      "id": "schneider-energy",
+      "name": "Schneider Electric Solutions",
+      "category": "Factory Automation",
+      "brand": "Schneider",
+      "image": "control-panel.jpg",
+      "description": "Leading energy management and automation solutions for industrial applications",
+      "features": ["Digital Energy Management", "Sustainable Solutions", "Industrial Automation", "Smart Manufacturing"],
+      "applications": ["Energy Management", "Industrial Control", "Building Automation", "Infrastructure"],
+      "specifications": {
+        "tagline": "Leading the Charge in Energy Solutions"
+      }
+    },
+    {
+      "id": "siemens-industrial",
+      "name": "Siemens Industrial Solutions",
+      "category": "Factory Automation",
+      "brand": "Siemens",
+      "image": "control-panel.jpg",
+      "description": "Comprehensive industrial automation solutions including PLCs, VFDs, HMIs, and panel board accessories. All PLC Programming & SCADA solutions available",
+      "features": ["Efficiency Through Innovation", "Complete System Integration", "PLC Programming & SCADA", "Industrial Enclosure Solutions"],
+      "applications": ["PLC Panels", "MCC Panels", "VFD Panels", "RTU Panels"],
+      "specifications": {
+        "services": "All PLC Programming & SCADA Solution",
+        "panels": "PLC-PANEL, MCC-PANEL, VFD-PANEL, RTU PANEL",
+        "tagline": "Efficiency Through Siemens Solutions"
+      }
+    },
+    {
+      "id": "industrial-motors-weg-siemens",
+      "name": "Industrial Motors WEG/Siemens",
+      "category": "Industrial Motors",
+      "brand": "WEG",
+      "image": "industrial-motor.jpg",
+      "description": "IE2/IE3 Energy Efficient Motors - WEG and Siemens motors in Foot, Flange, B3, B5, B14 mounting. 1LA8, 1LE7 series including brake motors and crane duty motors",
+      "features": ["High Efficiency IE2/IE3", "Multiple Mounting Options", "Low Maintenance", "Wide Power Range 0.25hp to 75hp"],
+      "applications": ["Pumps & Fans", "Compressors & Blowers", "Conveyors & Material Handling", "Machine Tools"],
+      "specifications": {
+        "power": "0.25hp to 75hp (0.12kW - 55kW)",
+        "types": "1 Phase, 3 Phase, Brake Motor",
+        "series": "1LA8 N-Compact 355-500 Frame (IE3), 1LE7 Global Series 71-315 Frame (IE2 & IE3), 1LE7 Brake Motor, 1LE7 Crane Duty S4",
+        "mounting": "Foot, Flange, Foot cum Flange, Face Mounted",
+        "voltage": "230V - 690V",
+        "efficiency": "IE2, IE3 Class"
+      }
+    },
+    {
+      "id": "industrial-bearings",
       "name": "Industrial Bearings",
       "category": "Bearings",
       "brand": "SKF",
       "image": "bearings.jpg",
-      "description": "High-quality bearings for industrial machinery and equipment",
-      "features": ["Low Friction", "Long Life", "High Load Capacity", "Corrosion Resistant"],
-      "applications": ["Motors", "Gearboxes", "Pumps", "Conveyors"],
+      "description": "Premium quality bearings from world-leading manufacturers - SKF, NTN, NSK, FAG, INA, SCHAEFFLER, TR, IKO for all industrial applications",
+      "features": ["Low Friction & Long Life", "High Load Capacity", "Corrosion Resistant", "Precision Engineered"],
+      "applications": ["Motors & Gearboxes", "Pumps & Compressors", "Conveyors", "Machine Tools"],
       "specifications": {
-        "types": "Ball, Roller, Thrust",
-        "bore": "3mm - 320mm",
-        "brands": "SKF, NTN, FAG, NSK"
+        "types": "Ball Bearings, Roller Bearings, Thrust Bearings, Linear Bearings",
+        "brands": "SKF, NTN, NSK, FAG, INA, SCHAEFFLER, TR, IKO",
+        "bore": "3mm - 320mm"
       }
     },
     {
-      "id": "linear-motion",
-      "name": "Linear Motion Products",
+      "id": "hiwin-linear-motion",
+      "name": "HIWIN Ball Screw & Linear Guideway",
       "category": "Linear Motion",
       "brand": "Hiwin",
       "image": "linear-motion.jpg",
-      "description": "Precision linear motion systems including guideways and actuators",
-      "features": ["High Precision", "Low Friction", "Long Life", "Smooth Motion"],
-      "applications": ["CNC Machines", "Automation", "Medical Equipment"],
+      "description": "Precision linear motion systems - Heavy Load Drive Series, E2 Series, Precision Ground/Rolled Series, EG/HG/RG Series Linear Guideways, Super S Series",
+      "features": ["Ultra-High Precision", "Low Friction & Smooth Motion", "High Load Capacity", "Long Service Life"],
+      "applications": ["CNC Machines", "Automation Equipment", "Medical Devices", "Semiconductor Equipment"],
       "specifications": {
-        "accuracy": "±3μm",
+        "ballscrew_series": "Heavy Load Drive Series, E2 Series, Precision Ground Series, Precision Rolled Series, High Speed Super S Series",
+        "guideway_series": "EG Series, HG Series, RG Series",
+        "accuracy": "±3μm to ±52μm",
         "load_capacity": "Up to 127kN",
         "sizes": "15mm - 65mm"
       }
     },
     {
-      "id": "ballscrews",
-      "name": "Ballscrews & Linear Guideway",
-      "category": "Linear Motion",
-      "brand": "Hiwin",
-      "image": "linear-motion.jpg",
-      "description": "High-efficiency ballscrew assemblies for precise linear motion",
-      "features": ["High Efficiency", "Low Backlash", "Smooth Operation", "Customizable"],
-      "applications": ["CNC Machines", "Robots", "Automation Systems"],
-      "specifications": {
-        "diameter": "8mm - 80mm",
-        "lead": "1mm - 50mm",
-        "accuracy": "C3 to C10"
-      }
-    },
-    {
-      "id": "gearbox",
-      "name": "ZD Gearbox",
+      "id": "zd-gear-motors",
+      "name": "ZD Gear Motors",
       "category": "Power Transmission",
       "brand": "ZD",
       "image": "gearbox.jpg",
-      "description": "Industrial gearboxes for power transmission and speed reduction",
-      "features": ["High Torque", "Low Noise", "Compact Design", "Long Service Life"],
-      "applications": ["Conveyors", "Mixers", "Crushers", "Packaging Machines"],
+      "description": "Specialized mini AC gear motors - Gear motors, Three phase motors, Speed control motors, Brake motors, Torque motors, DC gear motors",
+      "features": ["Compact Design", "High Torque Output", "Low Noise Operation", "Reliable Performance"],
+      "applications": ["Conveyor Systems", "Packaging Equipment", "Food Processing", "Material Handling"],
       "specifications": {
-        "ratios": "5:1 to 100:1",
-        "torque": "Up to 50,000 Nm",
-        "types": "Helical, Worm, Planetary"
+        "types": "Gear Motors, Three Phase Motor, Speed Control Motor, Brake Motors, Torque Motor, DC Gear Motor",
+        "specialization": "Mini AC Gear Motors"
       }
     },
     {
-      "id": "pneumatics",
-      "name": "Pneumatic Systems",
+      "id": "janatics-pneumatics",
+      "name": "Janatics Pneumatic Systems",
       "category": "Pneumatics",
       "brand": "Janatics",
       "image": "pneumatics.jpg",
-      "description": "Complete pneumatic solutions including cylinders, valves, and accessories",
-      "features": ["Reliable Operation", "Easy Maintenance", "Wide Range", "Cost-Effective"],
-      "applications": ["Assembly", "Material Handling", "Clamping", "Packaging"],
+      "description": "Complete pneumatic solutions - ISO Standard Cylinders (A27, A28, A16, A17, A23, A24, A64, A63, A02, A03), Compact Guided Cylinders, FRL, Valves, Fittings",
+      "features": ["ISO Standard Cylinders Double Acting", "Magnetic & Non-Magnetic Options", "Complete FRL Series", "Colored Polyurethane Tubes"],
+      "applications": ["Assembly Automation", "Material Handling & Clamping", "Packaging Machines", "Machine Tools"],
       "specifications": {
-        "pressure": "0-10 bar",
-        "brands": "Janatics, SMC, Airtech",
-        "types": "Cylinders, Valves, FRLs"
+        "cylinders": "ISO Standard - A27 (Magnetic), A28 (Non-Magnetic), A16, A17, A23, A24, A64, A63, A02, A03",
+        "products": "Air Cylinders, One Touch Fittings, Air Preparation Units, Pneumatic/Solenoid Valves, Butterfly Valves, Ball Valves, Manual Valves",
+        "tubes": "Colored Polyurethane Tube, Colored Coiled Polyurethane Tube",
+        "pressure": "0-10 bar"
       }
     },
     {
-      "id": "sensors",
+      "id": "smc-pneumatics",
+      "name": "SMC Pneumatic Components",
+      "category": "Pneumatics",
+      "brand": "SMC",
+      "image": "pneumatics.jpg",
+      "description": "World-class pneumatic automation products - Cylinders, Solenoid Valves, Fittings, Air Treatment Units, and Accessories",
+      "features": ["Global Quality Standards", "Wide Product Range", "Reliable Operation", "Easy Maintenance"],
+      "applications": ["Factory Automation", "Assembly Lines", "Packaging", "Testing Equipment"],
+      "specifications": {
+        "products": "Fitting Pneumatic, Solenoid Valves, Cylinders, FRL Units",
+        "pressure": "0-10 bar"
+      }
+    },
+    {
+      "id": "industrial-sensors",
       "name": "Industrial Sensors",
       "category": "Automation",
       "brand": "Omron",
       "image": "sensors.jpg",
-      "description": "Precision sensors for industrial automation and control",
-      "features": ["High Accuracy", "Fast Response", "Durable", "Easy Installation"],
-      "applications": ["Position Detection", "Level Sensing", "Temperature Monitoring"],
+      "description": "Premium industrial sensors from leading manufacturers - SICK, Omron, Panasonic, Pepperl+Fuchs for all automation needs",
+      "features": ["High Accuracy & Reliability", "Fast Response Time", "IP67/IP68 Protection", "Easy Installation"],
+      "applications": ["Position Detection", "Level Sensing", "Temperature Monitoring", "Proximity Detection"],
       "specifications": {
-        "types": "Proximity, Photoelectric, Temperature, Pressure",
-        "output": "PNP, NPN, Analog",
+        "brands": "SICK, Omron, Panasonic, Pepperl+Fuchs",
+        "types": "Proximity, Photoelectric, Temperature, Pressure, Ultrasonic, Laser",
+        "output": "PNP, NPN, Analog 4-20mA",
         "protection": "IP67, IP68"
       }
     },
     {
-      "id": "cables",
+      "id": "industrial-cables",
       "name": "Industrial Cables",
       "category": "Electrical",
       "brand": "Polycab",
       "image": "cables.jpg",
-      "description": "High-quality industrial cables for power and control applications",
-      "features": ["Flame Retardant", "Oil Resistant", "Flexible", "Durable"],
-      "applications": ["Machine Wiring", "Panel Wiring", "Motor Connections"],
+      "description": "High-quality industrial cables from premium brands - Finolex, Polycab, LAPP KABEL for power, control, and instrumentation",
+      "features": ["Flame Retardant & Oil Resistant", "Flexible & Durable", "UV & Weather Resistant", "Certified Quality"],
+      "applications": ["Machine Wiring", "Panel Wiring", "Motor Connections", "Instrumentation"],
       "specifications": {
-        "types": "Power, Control, Instrumentation",
+        "brands": "Finolex, Polycab, LAPP KABEL, Sagar Cables",
+        "types": "Power Cables, Control Cables, Instrumentation Cables, LAN CAT6+ Cables",
         "voltage": "Up to 1100V",
         "sizes": "0.5 sq.mm - 300 sq.mm"
       }
     },
     {
-      "id": "transformers",
+      "id": "transformers-stabilizers",
       "name": "Transformers & Stabilizers",
       "category": "Power",
       "brand": "V-Guard",
       "image": "transformer.jpg",
-      "description": "Power transformers and voltage stabilizers for industrial applications",
-      "features": ["Voltage Regulation", "Overload Protection", "Energy Efficient", "Reliable"],
-      "applications": ["Machine Protection", "Power Conditioning", "Voltage Conversion"],
+      "description": "Complete power solutions - Isolation Transformers, Auto Transformers, K-Rated, Control Transformers, Current Transformers, Servo Stabilizers, Harmonic Solutions",
+      "features": ["Voltage Regulation & Protection", "Energy Efficient Design", "Overload Protection", "Soft Start System"],
+      "applications": ["Machine Protection", "Power Conditioning", "Voltage Conversion", "Harmonic Filtering"],
       "specifications": {
+        "types": "Isolation Transformers with Soft Start, Auto Transformers, K-Rated Isolation Transformers, Control Transformers, Current Transformers (CTs), Servo Controlled Voltage Stabilizers, Static Voltage Stabilizers",
+        "harmonic": "Drive AC Input/Output Chokes, Input Output Harmonic Chokes, Power Factor Correction Reactors, Shunt Reactors",
+        "converters": "AC-DC Converter (DC Power Supply)",
         "capacity": "1kVA - 500kVA",
         "input": "230V - 690V",
         "accuracy": "±1%"
       }
     },
     {
-      "id": "control-panels",
-      "name": "Control Panels",
+      "id": "control-panels-custom",
+      "name": "Custom Control Panels",
       "category": "Control Systems",
       "brand": "Goodwill",
       "image": "control-panel.jpg",
-      "description": "Custom-built control panels in MS, SS, and Aluminium with PLC integration",
-      "features": ["Custom Design", "PLC Integration", "Safety Certified", "Durable Construction"],
-      "applications": ["Machine Control", "Process Automation", "Building Management"],
+      "description": "PLC-based control panels in MS (Mild Steel), SS304 (Stainless Steel), and Aluminium with complete panel board accessories and PLC programming services",
+      "features": ["Custom Design & Engineering", "PLC Integration & Programming", "Safety Certified Construction", "IP54, IP65, IP66 Ratings"],
+      "applications": ["Machine Control & Automation", "Process Automation", "Building Management", "Industrial Systems"],
       "specifications": {
-        "materials": "MS, SS304, Aluminium",
+        "materials": "MS (Mild Steel) - Powder Coated/Galvanized, SS304/SS316 (Stainless Steel) - Brushed/Mirror/Matte, Aluminium - Anodized/PVDF Coated",
+        "features": "Strong & Durable, Corrosion Resistant, Lightweight, Customizable Sizes",
+        "services": "PLC Programming, SCADA Solution, Complete Electrical Panel Board Accessories",
         "rating": "IP54, IP65, IP66",
         "certification": "CE, UL"
       }
